@@ -1,0 +1,162 @@
+Ajo,Arizona
+Alpine,Arizona
+Amado,Arizona
+Apache Junction,Arizona
+Arizona City,Arizona
+Ash Fork,Arizona
+Avondale,Arizona
+Benson,Arizona
+Bisbee,Arizona
+Buckeye,Arizona
+Bullhead City,Arizona
+Camp Verde,Arizona
+Carefree,Arizona
+Casa Grande,Arizona
+Catalina,Arizona
+Cave Creek,Arizona
+Central,Arizona
+Chandler,Arizona
+Chinle,Arizona
+Chino Valley,Arizona
+Clarkdale,Arizona
+Clifton,Arizona
+Cochise,Arizona
+Colorado City,Arizona
+Congress,Arizona
+Coolidge,Arizona
+Cortaro,Arizona
+Cottonwood,Arizona
+Dateland,Arizona
+Douglas,Arizona
+Duncan,Arizona
+Ehrenberg,Arizona
+El Mirage,Arizona
+Elgin,Arizona
+Eloy,Arizona
+Flagstaff,Arizona
+Florence,Arizona
+Fountain Hills,Arizona
+Fredonia,Arizona
+Fort Defiance,Arizona
+Fort Huachuca,Arizona
+Fort Mohave,Arizona
+Fort Thomas,Arizona
+Ganado,Arizona
+Gila Bend,Arizona
+Gilbert,Arizona
+Glendale,Arizona
+Globe,Arizona
+Goodyear,Arizona
+Grand Canyon National Park,Arizona
+Green Valley,Arizona
+Hayden,Arizona
+Holbrook,Arizona
+Hotevilla-Bacavi,Arizona
+Joseph City,Arizona
+Kayenta,Arizona
+Keams Canyon,Arizona
+Kearny,Arizona
+Kingman,Arizona
+Kykotsmovi Village,Arizona
+Lake Havasu City,Arizona
+Lake Montezuma,Arizona
+Litchfield Park,Arizona
+Littlefield,Arizona
+Luke AFB,Arizona
+Mammoth,Arizona
+Many Farms,Arizona
+Marana,Arizona
+Maricopa,Arizona
+Mayer,Arizona
+Mesa,Arizona
+Miami,Arizona
+Mohave Valley,Arizona
+Morenci,Arizona
+Morristown,Arizona
+Naco,Arizona
+New River,Arizona
+Nogales,Arizona
+Oracle,Arizona
+Page,Arizona
+Palo Verde,Arizona
+Paradise Valley,Arizona
+Parker,Arizona
+Parks,Arizona
+Payson,Arizona
+Peoria,Arizona
+Phoenix,Arizona
+Pima,Arizona
+Poston,Arizona
+Prescott,Arizona
+Prescott Valley,Arizona
+Quartzsite,Arizona
+Queen Creek,Arizona
+Red Rock,Arizona
+Rio Rico,Arizona
+Rio Verde,Arizona
+Sacaton,Arizona
+Safford,Arizona
+Sahuarita,Arizona
+Salome,Arizona
+San Carlos,Arizona
+San Luis,Arizona
+San Manuel,Arizona
+San Simon,Arizona
+Sanders,Arizona
+Scottsdale,Arizona
+Sedona,Arizona
+Seligman,Arizona
+Sells,Arizona
+Show Low,Arizona
+Sierra Vista,Arizona
+Skull Valley,Arizona
+Snowflake,Arizona
+Solomon,Arizona
+Somerton,Arizona
+Springerville,Arizona
+Saint David,Arizona
+Saint Johns,Arizona
+Saint Michaels,Arizona
+Stanfield,Arizona
+Sun City,Arizona
+Sun City West,Arizona
+Superior,Arizona
+Surprise,Arizona
+Teec Nos Pos,Arizona
+Tempe,Arizona
+Thatcher,Arizona
+Tolleson,Arizona
+Tombstone,Arizona
+Tonopah,Arizona
+Topawa,Arizona
+Tuba City,Arizona
+Tucson,Arizona
+Vail,Arizona
+Waddell,Arizona
+Wellton,Arizona
+Whiteriver,Arizona
+Wickenburg,Arizona
+Wikieup,Arizona
+Willcox,Arizona
+Williams,Arizona
+Window Rock,Arizona
+Winkelman,Arizona
+Winslow,Arizona
+Wittmann,Arizona
+Youngtown,Arizona
+Yuma,Arizona
+Casas Adobes,Arizona
+Catalina Foothills,Arizona
+Corona de Tucson,Arizona
+Drexel Heights,Arizona
+Fortuna Foothills,Arizona
+Gold Canyon,Arizona
+Grand Canyon Village,Arizona
+Oro Valley,Arizona
+Pinetop-Lakeside,Arizona
+San Tan Valley,Arizona
+Sun Lakes,Arizona
+Tanque Verde,Arizona
+Tusayan,Arizona
+Valencia West,Arizona
+Village of Oak Creek,Arizona

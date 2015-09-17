@@ -1,0 +1,801 @@
+Abernathy,Texas
+Abilene,Texas
+Addison,Texas
+Alamo,Texas
+Alba,Texas
+Albany,Texas
+Aledo,Texas
+Alice,Texas
+Allen,Texas
+Alpine,Texas
+Alvarado,Texas
+Alvin,Texas
+Amarillo,Texas
+Anahuac,Texas
+Anderson,Texas
+Andrews,Texas
+Angleton,Texas
+Anna,Texas
+Anson,Texas
+Anthony,Texas
+Apple Springs,Texas
+Aransas Pass,Texas
+Archer City,Texas
+Argyle,Texas
+Arlington,Texas
+Armstrong,Texas
+Aspermont,Texas
+Atascosa,Texas
+Athens,Texas
+Atlanta,Texas
+Aubrey,Texas
+Austin,Texas
+Avalon,Texas
+Avery,Texas
+Azle,Texas
+Bailey,Texas
+Baird,Texas
+Ballinger,Texas
+Bandera,Texas
+Bartlett,Texas
+Bastrop,Texas
+Bay City,Texas
+Baytown,Texas
+Beaumont,Texas
+Bedford,Texas
+Beeville,Texas
+Bellaire,Texas
+Bells,Texas
+Bellville,Texas
+Belton,Texas
+Benavides,Texas
+Benjamin,Texas
+Big Lake,Texas
+Big Sandy,Texas
+Big Spring,Texas
+Bishop,Texas
+Blanco,Texas
+Bloomington,Texas
+Blue Ridge,Texas
+Boerne,Texas
+Boling-Iago,Texas
+Bonham,Texas
+Borger,Texas
+Bowie,Texas
+Brackettville,Texas
+Brady,Texas
+Brashear,Texas
+Brazoria,Texas
+Breckenridge,Texas
+Brenham,Texas
+Bridge City,Texas
+Bridgeport,Texas
+Briggs,Texas
+Briscoe,Texas
+Brookshire,Texas
+Brownfield,Texas
+Brownsboro,Texas
+Brownsville,Texas
+Brownwood,Texas
+Bryan,Texas
+Buda,Texas
+Buffalo,Texas
+Bullard,Texas
+Bulverde,Texas
+Buna,Texas
+Burkburnett,Texas
+Burleson,Texas
+Burnet,Texas
+Bushland,Texas
+Byers,Texas
+Caddo Mills,Texas
+Caldwell,Texas
+Calvert,Texas
+Cameron,Texas
+Campbell,Texas
+Canadian,Texas
+Canton,Texas
+Canutillo,Texas
+Canyon,Texas
+Carrizo Springs,Texas
+Carrollton,Texas
+Carthage,Texas
+Castroville,Texas
+Cedar Creek,Texas
+Cedar Hill,Texas
+Cedar Park,Texas
+Celeste,Texas
+Celina,Texas
+Center,Texas
+Center Point,Texas
+Centerville,Texas
+Chandler,Texas
+Channelview,Texas
+Chappell Hill,Texas
+Charlotte,Texas
+Chatfield,Texas
+Cherokee,Texas
+Chester,Texas
+Childress,Texas
+Chilton,Texas
+China Spring,Texas
+Cibolo,Texas
+Cisco,Texas
+Clarendon,Texas
+Clarksville,Texas
+Clay,Texas
+Cleburne,Texas
+Cleveland,Texas
+Clifton,Texas
+Clint,Texas
+Clute,Texas
+Clyde,Texas
+Coldspring,Texas
+Coleman,Texas
+College Station,Texas
+Colleyville,Texas
+Collinsville,Texas
+Colorado City,Texas
+Columbus,Texas
+Comanche,Texas
+Comfort,Texas
+Commerce,Texas
+Conroe,Texas
+Converse,Texas
+Coolidge,Texas
+Cooper,Texas
+Coppell,Texas
+Copperas Cove,Texas
+Corpus Christi,Texas
+Corsicana,Texas
+Cotulla,Texas
+Crandall,Texas
+Crane,Texas
+Crawford,Texas
+Crockett,Texas
+Crosby,Texas
+Crosbyton,Texas
+Crowell,Texas
+Crowley,Texas
+Crystal City,Texas
+Cuero,Texas
+Cumby,Texas
+Cushing,Texas
+Cypress,Texas
+D'Hanis,Texas
+Daingerfield,Texas
+Dale,Texas
+Dalhart,Texas
+Dallas,Texas
+Damon,Texas
+Dawson,Texas
+Dayton,Texas
+De Leon,Texas
+Decatur,Texas
+Deer Park,Texas
+Del Rio,Texas
+Dell City,Texas
+Denison,Texas
+Denton,Texas
+Denver City,Texas
+DeSoto,Texas
+Devine,Texas
+Diboll,Texas
+Dickens,Texas
+Dickinson,Texas
+Dilley,Texas
+Dimmitt,Texas
+Dodd City,Texas
+Donna,Texas
+Driftwood,Texas
+Dripping Springs,Texas
+Dumas,Texas
+Duncanville,Texas
+Dyess Air Force Base,Texas
+Eagle Lake,Texas
+Eagle Pass,Texas
+East Bernard,Texas
+Eastland,Texas
+Ector,Texas
+Edcouch,Texas
+Eden,Texas
+Edinburg,Texas
+Edna,Texas
+El Campo,Texas
+El Paso,Texas
+Eldorado,Texas
+Electra,Texas
+Elgin,Texas
+Elm Mott,Texas
+Elmendorf,Texas
+Elsa,Texas
+Emory,Texas
+Ennis,Texas
+Euless,Texas
+Fabens,Texas
+Fairfield,Texas
+Falfurrias,Texas
+Falls City,Texas
+Fannin,Texas
+Farmersville,Texas
+Farwell,Texas
+Fayetteville,Texas
+Ferris,Texas
+Flatonia,Texas
+Florence,Texas
+Floresville,Texas
+Flower Mound,Texas
+Floydada,Texas
+Follett,Texas
+Forney,Texas
+Franklin,Texas
+Fredericksburg,Texas
+Freeport,Texas
+Fresno,Texas
+Friendswood,Texas
+Frisco,Texas
+Fort Davis,Texas
+Fort Hancock,Texas
+Fort Stockton,Texas
+Fort Worth,Texas
+Gail,Texas
+Gainesville,Texas
+Galena Park,Texas
+Galveston,Texas
+Ganado,Texas
+Garden City,Texas
+Gardendale,Texas
+Garland,Texas
+Garrison,Texas
+Garwood,Texas
+Gatesville,Texas
+George West,Texas
+Georgetown,Texas
+Geronimo,Texas
+Giddings,Texas
+Gillett,Texas
+Gilmer,Texas
+Gladewater,Texas
+Glen Rose,Texas
+Goldthwaite,Texas
+Goliad,Texas
+Gonzales,Texas
+Goodfellow Air Force Base,Texas
+Gordon,Texas
+Gorman,Texas
+Graham,Texas
+Granbury,Texas
+Grand Prairie,Texas
+Grapeland,Texas
+Grapevine,Texas
+Greenville,Texas
+Groesbeck,Texas
+Groves,Texas
+Gruver,Texas
+Gunter,Texas
+Guthrie,Texas
+Hale Center,Texas
+Hallettsville,Texas
+Hallsville,Texas
+Haltom City,Texas
+Hamilton,Texas
+Hamshire,Texas
+Hardin,Texas
+Harker Heights,Texas
+Harlingen,Texas
+Harper,Texas
+Harrold,Texas
+Hartley,Texas
+Haskell,Texas
+Haslet,Texas
+Hawkins,Texas
+Hearne,Texas
+Hebbronville,Texas
+Helotes,Texas
+Hemphill,Texas
+Hempstead,Texas
+Henderson,Texas
+Henrietta,Texas
+Hereford,Texas
+Hico,Texas
+Hidalgo,Texas
+Highlands,Texas
+Hillsboro,Texas
+Hitchcock,Texas
+Hockley,Texas
+Holland,Texas
+Hondo,Texas
+Honey Grove,Texas
+Hooks,Texas
+Houston,Texas
+Howe,Texas
+Hubbard,Texas
+Huffman,Texas
+Hughes Springs,Texas
+Humble,Texas
+Hunt,Texas
+Huntington,Texas
+Huntsville,Texas
+Hurst,Texas
+Hutchins,Texas
+Hutto,Texas
+Industry,Texas
+Ingleside,Texas
+Ingram,Texas
+Iowa Park,Texas
+Irving,Texas
+Italy,Texas
+Itasca,Texas
+Ivanhoe,Texas
+Jacksboro,Texas
+Jacksonville,Texas
+Jasper,Texas
+Jayton,Texas
+Jefferson,Texas
+Joaquin,Texas
+Johnson City,Texas
+Jonesboro,Texas
+Joshua,Texas
+Jourdanton,Texas
+Junction,Texas
+Justin,Texas
+Karnack,Texas
+Karnes City,Texas
+Katy,Texas
+Kaufman,Texas
+Keene,Texas
+Keller,Texas
+Kemah,Texas
+Kemp,Texas
+Kendleton,Texas
+Kenedy,Texas
+Kennedale,Texas
+Kerens,Texas
+Kermit,Texas
+Kerrville,Texas
+Kilgore,Texas
+Killeen,Texas
+Kingsville,Texas
+Knippa,Texas
+Knox City,Texas
+Krum,Texas
+Kyle,Texas
+La Grange,Texas
+La Joya,Texas
+La Marque,Texas
+La Porte,Texas
+La Pryor,Texas
+La Salle,Texas
+La Vernia,Texas
+La Villa,Texas
+Ladonia,Texas
+Lake Dallas,Texas
+Lake Jackson,Texas
+Lamesa,Texas
+Lampasas,Texas
+Lancaster,Texas
+Laredo,Texas
+Lasara,Texas
+Laughlin Air Force Base,Texas
+League City,Texas
+Leakey,Texas
+Leander,Texas
+Leonard,Texas
+Levelland,Texas
+Lewisville,Texas
+Liberty,Texas
+Lindale,Texas
+Linden,Texas
+Lipan,Texas
+Lipscomb,Texas
+Little Elm,Texas
+Little River-Academy,Texas
+Littlefield,Texas
+Liverpool,Texas
+Livingston,Texas
+Llano,Texas
+Lockhart,Texas
+Lometa,Texas
+Lone Oak,Texas
+Lone Star,Texas
+Longview,Texas
+Los Fresnos,Texas
+Lott,Texas
+Louise,Texas
+Lovelady,Texas
+Loving,Texas
+Lubbock,Texas
+Lufkin,Texas
+Luling,Texas
+Lumberton,Texas
+Lyford,Texas
+Lytle,Texas
+Mabank,Texas
+Madisonville,Texas
+Magnolia,Texas
+Malakoff,Texas
+Malone,Texas
+Manchaca,Texas
+Manor,Texas
+Mansfield,Texas
+Marble Falls,Texas
+Marfa,Texas
+Marion,Texas
+Marlin,Texas
+Marquez,Texas
+Marshall,Texas
+Mart,Texas
+Mason,Texas
+Matador,Texas
+Matagorda,Texas
+Mathis,Texas
+Mauriceville,Texas
+Maypearl,Texas
+McCamey,Texas
+McGregor,Texas
+McKinney,Texas
+McNeil,Texas
+McAllen,Texas
+Medina,Texas
+Melissa,Texas
+Memphis,Texas
+Menard,Texas
+Mercedes,Texas
+Meridian,Texas
+Merit,Texas
+Merkel,Texas
+Mertzon,Texas
+Mesquite,Texas
+Mexia,Texas
+Miami,Texas
+Midland,Texas
+Midlothian,Texas
+Milam,Texas
+Milano,Texas
+Milford,Texas
+Mineola,Texas
+Mineral Wells,Texas
+Mission,Texas
+Missouri City,Texas
+Monahans,Texas
+Mont Belvieu,Texas
+Montague,Texas
+Montgomery,Texas
+Moody,Texas
+Moore,Texas
+Morse,Texas
+Morton,Texas
+Mount Pleasant,Texas
+Mount Vernon,Texas
+Muenster,Texas
+Muleshoe,Texas
+Mumford,Texas
+Nacogdoches,Texas
+Natalia,Texas
+Navasota,Texas
+Nederland,Texas
+Needville,Texas
+Nevada,Texas
+New Boston,Texas
+New Braunfels,Texas
+New Caney,Texas
+New Waverly,Texas
+Newark,Texas
+Newton,Texas
+Nixon,Texas
+Nolan,Texas
+North Richland Hills,Texas
+Nursery,Texas
+Odem,Texas
+Odessa,Texas
+Olney,Texas
+Onalaska,Texas
+Orange,Texas
+Orange Grove,Texas
+Orangefield,Texas
+Overton,Texas
+Ozona,Texas
+Paducah,Texas
+Paint Rock,Texas
+Palacios,Texas
+Palestine,Texas
+Palmer,Texas
+Palo Pinto,Texas
+Pampa,Texas
+Panhandle,Texas
+Panola,Texas
+Paris,Texas
+Pasadena,Texas
+Pearland,Texas
+Pearsall,Texas
+Pecos,Texas
+Penwell,Texas
+Perryton,Texas
+Petersburg,Texas
+Pflugerville,Texas
+Pharr,Texas
+Pilot Point,Texas
+Pinehurst,Texas
+Pipe Creek,Texas
+Pittsburg,Texas
+Plains,Texas
+Plainview,Texas
+Plano,Texas
+Pleasanton,Texas
+Point,Texas
+Point Comfort,Texas
+Ponder,Texas
+Port Aransas,Texas
+Port Arthur,Texas
+Port Lavaca,Texas
+Port Neches,Texas
+Porter,Texas
+Portland,Texas
+Post,Texas
+Poteet,Texas
+Poth,Texas
+Pottsboro,Texas
+Prairie View,Texas
+Premont,Texas
+Presidio,Texas
+Princeton,Texas
+Progreso,Texas
+Prosper,Texas
+Quanah,Texas
+Queen City,Texas
+Quemado,Texas
+Quinlan,Texas
+Quitman,Texas
+Ranger,Texas
+Rankin,Texas
+Raymondville,Texas
+Reagan,Texas
+Red Oak,Texas
+Refugio,Texas
+Rice,Texas
+Richardson,Texas
+Richmond,Texas
+Rio Grande City,Texas
+Rio Hondo,Texas
+Riviera,Texas
+Roanoke,Texas
+Robert Lee,Texas
+Robstown,Texas
+Roby,Texas
+Rockdale,Texas
+Rockport,Texas
+Rocksprings,Texas
+Rockwall,Texas
+Rogers,Texas
+Roma,Texas
+Rosenberg,Texas
+Rosharon,Texas
+Ross,Texas
+Round Mountain,Texas
+Round Rock,Texas
+Round Top,Texas
+Rowlett,Texas
+Royse City,Texas
+Runge,Texas
+Rusk,Texas
+Sabinal,Texas
+Sachse,Texas
+Sadler,Texas
+Salado,Texas
+San Angelo,Texas
+San Antonio,Texas
+San Augustine,Texas
+San Benito,Texas
+San Diego,Texas
+San Elizario,Texas
+San Juan,Texas
+San Marcos,Texas
+San Saba,Texas
+Sanderson,Texas
+Sandia,Texas
+Santa Anna,Texas
+Santa Fe,Texas
+Saratoga,Texas
+Savoy,Texas
+Schertz,Texas
+Schulenburg,Texas
+Scottsville,Texas
+Scurry,Texas
+Seabrook,Texas
+Seagoville,Texas
+Seagraves,Texas
+Sealy,Texas
+Sebastian,Texas
+Seguin,Texas
+Seminole,Texas
+Seymour,Texas
+Shamrock,Texas
+Shelbyville,Texas
+Sheppard Air Force Base,Texas
+Sherman,Texas
+Shiner,Texas
+Shiro,Texas
+Sierra Blanca,Texas
+Silsbee,Texas
+Silverton,Texas
+Sinton,Texas
+Slaton,Texas
+Smithville,Texas
+Snook,Texas
+Snyder,Texas
+Somerset,Texas
+Sonora,Texas
+Sour Lake,Texas
+South Houston,Texas
+South Padre Island,Texas
+Southlake,Texas
+Spearman,Texas
+Spicewood,Texas
+Splendora,Texas
+Spring,Texas
+Spring Branch,Texas
+Springtown,Texas
+Spur,Texas
+Spurger,Texas
+Stafford,Texas
+Stamford,Texas
+Stanton,Texas
+Stephenville,Texas
+Sterling City,Texas
+Stinnett,Texas
+Stockdale,Texas
+Stonewall,Texas
+Stratford,Texas
+Strawn,Texas
+Streetman,Texas
+Sudan,Texas
+Sugar Land,Texas
+Sulphur Springs,Texas
+Sunnyvale,Texas
+Sweetwater,Texas
+Tahoka,Texas
+Taylor,Texas
+Temple,Texas
+Tenaha,Texas
+Terrell,Texas
+Texarkana,Texas
+Texas City,Texas
+The Colony,Texas
+Thompsons,Texas
+Thorndale,Texas
+Thornton,Texas
+Three Rivers,Texas
+Throckmorton,Texas
+Tilden,Texas
+Timpson,Texas
+Tioga,Texas
+Tom Bean,Texas
+Tomball,Texas
+Tornillo,Texas
+Trenton,Texas
+Trinidad,Texas
+Trinity,Texas
+Troy,Texas
+Tulia,Texas
+Tye,Texas
+Tyler,Texas
+Universal City,Texas
+Utopia,Texas
+Uvalde,Texas
+Valley View,Texas
+Van Alstyne,Texas
+Van Horn,Texas
+Van Vleck,Texas
+Vega,Texas
+Vernon,Texas
+Victoria,Texas
+Vidor,Texas
+Waco,Texas
+Wadsworth,Texas
+Waller,Texas
+Wallis,Texas
+Washington,Texas
+Waskom,Texas
+Waxahachie,Texas
+Weatherford,Texas
+Webster,Texas
+Wellington,Texas
+Wellman,Texas
+Weslaco,Texas
+West Columbia,Texas
+Weston,Texas
+Wharton,Texas
+Wheeler,Texas
+Whiteface,Texas
+Whitehouse,Texas
+Whitesboro,Texas
+Whitewright,Texas
+Whitharral,Texas
+Whitney,Texas
+Wichita Falls,Texas
+Willis,Texas
+Wills Point,Texas
+Wimberley,Texas
+Winnsboro,Texas
+Wolfe City,Texas
+Wolfforth,Texas
+Woodsboro,Texas
+Woodville,Texas
+Woodway,Texas
+Wylie,Texas
+Yoakum,Texas
+Zapata,Texas
+Alamo Heights,Texas
+Atascocita,Texas
+Balch Springs,Texas
+Barton Creek,Texas
+Bartonville,Texas
+Bear Creek,Texas
+Bee Cave,Texas
+Benbrook,Texas
+Briarcliff,Texas
+Brushy Creek,Texas
+Canyon Lake,Texas
+Cinco Ranch,Texas
+Copper Canyon,Texas
+Corinth,Texas
+Cross Roads,Texas
+Fair Oaks Ranch,Texas
+Fairview,Texas
+Farmers Branch,Texas
+Fort Bliss,Texas
+Fort Hood,Texas
+Four Corners,Texas
+Fulshear,Texas
+Garden Ridge,Texas
+Godley,Texas
+Grandview,Texas
+Greatwood,Texas
+Hewitt,Texas
+Highland Park,Texas
+Highland Village,Texas
+Horizon City,Texas
+Horseshoe Bay,Texas
+Iowa Colony,Texas
+Jersey Village,Texas
+Jollyville,Texas
+Kingsland,Texas
+Lago Vista,Texas
+Lakehills,Texas
+Lakeway,Texas
+Lavon,Texas
+Liberty Hill,Texas
+Live Oak,Texas
+Lorena,Texas
+Lucas,Texas
+Manvel,Texas
+Mission Bend,Texas
+Murphy,Texas
+Ore City,Texas
+Paradise,Texas
+Pecan Grove,Texas
+Piney Point Village,Texas
+Port Isabel,Texas
+Robinson,Texas
+Saginaw,Texas
+Sanger,Texas
+Sienna Plantation,Texas
+Socorro,Texas
+Saint Hedwig,Texas
+Stagecoach,Texas
+The Woodlands,Texas
+Timberwood Park,Texas
+Trophy Club,Texas
+University Park,Texas
+Venus,Texas
+Wake Village,Texas
+Watauga,Texas
+Wells Branch,Texas
+West Lake Hills,Texas
+West University Place,Texas
+Westlake,Texas
+White Oak,Texas
+Willow Park,Texas
+Windcrest,Texas
+Windthorst,Texas
+Wyldwood,Texas

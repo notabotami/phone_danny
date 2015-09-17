@@ -1,0 +1,62 @@
+
+
+<%
+    
+    %>
+
+<ol>
+	<%current_page = 1%>
+	<%city_count = 0%>
+    <% File.open(@path, "r") do |f| %>
+	  <% f.each_line do |line| %>
+	  	<%if current_page == @page_number then %>
+	    	<li><%= line %></li>
+	    <%end%>
+	    <%city_count = city_count + 1%>
+	    <%if city_count % 10 == 0 then%>
+	    	
+	    	<%current_page = current_page + 1 %>
+	    <%end%>
+
+	  <% end %>
+	<% end %>
+
+
+</ol>
+
+<%total_pages = (city_count-1)/10 + 1%>
+    <ol class="pagination pagination-sm">
+
+      <%if total_pages <= 9 then %>
+
+        <%for i in 1..total_pages %>
+
+          <li class=<%=if i == @page_number then "active" else "" end %>><a href=<%=i.to_s%>><%=i.to_s%></a></li>
+
+        <% end %>
+
+      <% else %>
+
+      <li class=<%=if 1 == @page_number then "active" else "" end %>><a href="1">1</a></li>
+
+      <% if TestHelper.left_ellipses?(@page_number) then %>
+        <li><a>...</a></li>
+
+      <%end%>
+
+
+
+      <% TestHelper.get_page_numbers(@page_number,total_pages).each do |num| %>
+        <li class=<%=if num == @page_number then "active" else "" end %> > <a href=<%=num.to_s%> > <%=num.to_s%> </a></li>
+      <%end%>
+
+      <% if TestHelper.right_ellipses?(@page_number,total_pages) then %>
+        <li><a>...</a></li>
+
+      <%end%>
+
+      <li class=<%=if total_pages == @page_number then "active" else "" end %>><a href=<%=total_pages.to_s%>><%=total_pages.to_s%></li>
+      <%end%>
+
+
+    </ol>

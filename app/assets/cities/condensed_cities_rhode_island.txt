@@ -1,0 +1,39 @@
+Barrington,Rhode Island
+Bristol,Rhode Island
+Central Falls,Rhode Island
+Charlestown,Rhode Island
+Clayville,Rhode Island
+Coventry,Rhode Island
+Cranston,Rhode Island
+Cumberland,Rhode Island
+East Greenwich,Rhode Island
+East Providence,Rhode Island
+Exeter,Rhode Island
+Foster,Rhode Island
+Jamestown,Rhode Island
+Johnston,Rhode Island
+Lincoln,Rhode Island
+Little Compton,Rhode Island
+Middletown,Rhode Island
+Narragansett,Rhode Island
+Newport,Rhode Island
+North Kingstown,Rhode Island
+North Providence,Rhode Island
+North Smithfield,Rhode Island
+Pawtucket,Rhode Island
+Portsmouth,Rhode Island
+Providence,Rhode Island
+Smithfield,Rhode Island
+Warren,Rhode Island
+Warwick,Rhode Island
+West Greenwich,Rhode Island
+West Warwick,Rhode Island
+Woonsocket,Rhode Island
+Burrillville,Rhode Island
+Glocester,Rhode Island
+Hopkinton,Rhode Island
+Richmond,Rhode Island
+Scituate,Rhode Island
+South Kingstown,Rhode Island
+Tiverton,Rhode Island
+Westerly,Rhode Island
