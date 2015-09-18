@@ -14,7 +14,7 @@ end
 
 group :assets do
 	# Use SCSS for stylesheets
-	gem 'sass-rails', '~> 4.0.3'
+	
 	# Use Uglifier as compressor for JavaScript assets
 	gem 'uglifier', '>= 1.3.0'
 	# Use CoffeeScript for .js.coffee assets and views
@@ -23,6 +23,9 @@ group :assets do
 	# gem 'therubyracer',  platforms: :ruby
 	
 end
+
+gem 'bootstrap-sass', '~> 3.3.5'
+gem 'sass-rails', '>= 3.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

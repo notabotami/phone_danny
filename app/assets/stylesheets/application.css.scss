@@ -1,7 +1,79 @@
 
-/*
- *= require bootstrap
- *= require_self
- *= require bootstrap-theme.css
- */
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
+.accesspoint-topbar-content{
+	float: right;
+	margin-right: 10%;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.accesspoint-highlight{
+	color: #B00000;
+}
+
+.accesspoint-centered{
+	text-align: center;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.accesspoint-centered h1{
+	text-align: center;
+}
+.accesspoint-centered h2{
+	text-align: center;
+}
+.accesspoint-centered h3{
+	text-align: center;
+}
+.accesspoint-centered h4{
+	text-align: center;
+}
+.accesspoint-centered h5{
+	text-align: center;
+}
+
+.accesspoint-warning{
+	display: none;
+}
+.panel-heading{
+  color: #ffffff;
+  background: #B00000;
+}
+
+
+
+p{
+	text-align: justify;
+}
+
+.navbar{
+	height: 100px;
+}
+
+.navbar-collapse{
+	margin-top: 25px;
+}
+
+.navbar-right{
+	margin-top: 10px;
+}
+
+body{
+	margin-top: 10px;
+}
+
+.btn-primary{
+	background: rgb(200,50,0);
+	color: #ffffff;
+	border-color: rgb(200,50,0);
+}
+
+.btn-primary:hover{
+	background: rgb(255, 102, 0);
+	color: #ffffff;
+	border-color: rgb(255, 102, 0);
+}
