@@ -1,12 +1,17 @@
 <div class="container">
 
-<ul>
+<table class="table table-striped">
 	<%current_page = 1%>
 	<%city_count = 0%>
     <% File.open(@path, "r") do |f| %>
 	  <% f.each_line do |line| %>
+
 	  	<%if current_page == @page_number then %>
-	    	<li><%= line %></li>
+	  	<tr>
+	  		<td>
+	    		<%=TestHelper.city_link(line).html_safe%>
+	    	</td>
+	    </tr>
 	    <%end%>
 	    <%city_count = city_count + 1%>
 	    <%if city_count % 10 == 0 then%>
@@ -17,9 +22,8 @@
 	  <% end %>
 	<% end %>
 
-
-</ul>
-
+<tr>
+	<td>
 <%total_pages = (city_count-1)/10 + 1%>
     <ol class="pagination pagination-sm">
 
@@ -56,5 +60,9 @@
 
 
     </ol>
+	</td>
+</tr>
+</table>
 
+<a href="/locate_state"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Choose State</a>
 </div>

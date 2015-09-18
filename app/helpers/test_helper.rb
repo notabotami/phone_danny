@@ -33,4 +33,40 @@ module TestHelper
 
 	end
 
+	def self.city_link(line)
+		line_info = line.split(",")
+		city = line_info[0]
+		state = line_info[1]
+
+		link_city = city.downcase
+		link_city = link_city.gsub(" ", "_")
+
+		link_state = state.downcase
+		link_state = link_state.gsub(" ", "_")
+		link_state = link_state.rstrip
+
+		link = "/home/%s/%s" % [link_state,link_city]
+
+
+		s = "<a href='%s'>%s, %s</a>" % [link,city,state]
+		return s
+	end
+
+	def self.formalize(str)
+		str_list = str.split("_")
+		first = true
+		formal_str = ""
+		str_list.each do |s|
+			if first
+				formal_str = s.capitalize
+				first = false
+			else
+				formal_str = formal_str + " " + s.capitalize
+			end
+
+		end
+
+		return formal_str
+	end
+
 end
