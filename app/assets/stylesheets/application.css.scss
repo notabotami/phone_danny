@@ -1,7 +1,9 @@
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
+/*
+ *= require bootstrap
+ *= require bootstrap-theme.css
+ *= require_self
+ */
 .accesspoint-topbar-content{
 	float: right;
 	margin-right: 10%;
