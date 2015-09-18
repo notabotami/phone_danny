@@ -1,0 +1,55 @@
+Anchorage,Alaska
+Anderson,Alaska
+Angoon,Alaska
+Atqasuk,Alaska
+Barrow,Alaska
+Bethel,Alaska
+Clear,Alaska
+Cordova,Alaska
+Craig,Alaska
+Delta Junction,Alaska
+Dillingham,Alaska
+Eielson Air Force Base,Alaska
+Elmendorf Air Force Base,Alaska
+Fairbanks,Alaska
+Galena,Alaska
+Glennallen,Alaska
+Gustavus,Alaska
+Haines,Alaska
+Healy,Alaska
+Homer,Alaska
+Hoonah,Alaska
+Juneau,Alaska
+Kenai,Alaska
+Ketchikan,Alaska
+Klawock,Alaska
+Kodiak,Alaska
+Kotzebue,Alaska
+McGrath,Alaska
+Metlakatla,Alaska
+Mountain Village,Alaska
+Nikiski,Alaska
+Nome,Alaska
+North Pole,Alaska
+Palmer,Alaska
+Pelican,Alaska
+Petersburg,Alaska
+Port Lions,Alaska
+Seward,Alaska
+Sitka,Alaska
+Skagway,Alaska
+Soldotna,Alaska
+Tanacross,Alaska
+Thorne Bay,Alaska
+Tok,Alaska
+Tununak,Alaska
+Unalaska,Alaska
+Valdez,Alaska
+Wasilla,Alaska
+Whittier,Alaska
+Wrangell,Alaska
+Yakutat,Alaska
+College,Alaska
+Knik-Fairview,Alaska
+Kongiganak,Alaska
+Point MacKenzie,Alaska

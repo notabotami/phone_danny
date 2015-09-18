@@ -1,0 +1,368 @@
+Abingdon,Virginia
+Accomac,Virginia
+Afton,Virginia
+Alberta,Virginia
+Aldie,Virginia
+Alexandria,Virginia
+Altavista,Virginia
+Amelia Court House,Virginia
+Amherst,Virginia
+Annandale,Virginia
+Appomattox,Virginia
+Arcola,Virginia
+Ark,Virginia
+Arlington,Virginia
+Ashburn,Virginia
+Ashland,Virginia
+Atkins,Virginia
+Aylett,Virginia
+Bassett,Virginia
+Bastian,Virginia
+Bealeton,Virginia
+Bedford,Virginia
+Bent Mountain,Virginia
+Berryville,Virginia
+Big Island,Virginia
+Big Stone Gap,Virginia
+Blacksburg,Virginia
+Blackstone,Virginia
+Bland,Virginia
+Bluefield,Virginia
+Boston,Virginia
+Bowling Green,Virginia
+Boyce,Virginia
+Boydton,Virginia
+Boykins,Virginia
+Bracey,Virginia
+Bridgewater,Virginia
+Bristol,Virginia
+Bristow,Virginia
+Broadway,Virginia
+Brookneal,Virginia
+Buchanan,Virginia
+Buckingham,Virginia
+Buena Vista,Virginia
+Burke,Virginia
+Cape Charles,Virginia
+Capron,Virginia
+Carson,Virginia
+Catharpin,Virginia
+Catlett,Virginia
+Cedar Bluff,Virginia
+Centreville,Virginia
+Chantilly,Virginia
+Charles City,Virginia
+Charlotte Court House,Virginia
+Charlottesville,Virginia
+Chase City,Virginia
+Chatham,Virginia
+Chesapeake,Virginia
+Chester,Virginia
+Chesterfield,Virginia
+Chincoteague Island,Virginia
+Christiansburg,Virginia
+Claremont,Virginia
+Clarksville,Virginia
+Clifton,Virginia
+Clifton Forge,Virginia
+Clintwood,Virginia
+Clover,Virginia
+Cloverdale,Virginia
+Collinsville,Virginia
+Colonial Beach,Virginia
+Colonial Heights,Virginia
+Courtland,Virginia
+Covington,Virginia
+Crewe,Virginia
+Critz,Virginia
+Culpeper,Virginia
+Cumberland,Virginia
+Dahlgren,Virginia
+Daleville,Virginia
+Danville,Virginia
+Dayton,Virginia
+Deerfield,Virginia
+Delaplane,Virginia
+Dendron,Virginia
+Dinwiddie,Virginia
+Disputanta,Virginia
+Doran,Virginia
+Dublin,Virginia
+Duffield,Virginia
+Dulles,Virginia
+Dumfries,Virginia
+Dunn Loring,Virginia
+Earlysville,Virginia
+Edinburg,Virginia
+Elkton,Virginia
+Elkwood,Virginia
+Emporia,Virginia
+Exmore,Virginia
+Faber,Virginia
+Fairfax,Virginia
+Fairfax Station,Virginia
+Falls Church,Virginia
+Falls Mills,Virginia
+Farmville,Virginia
+Ferrum,Virginia
+Fieldale,Virginia
+Fincastle,Virginia
+Fishersville,Virginia
+Flint Hill,Virginia
+Floyd,Virginia
+Forest,Virginia
+Fork Union,Virginia
+Franklin,Virginia
+Fredericksburg,Virginia
+Front Royal,Virginia
+Fort Belvoir,Virginia
+Fort Lee,Virginia
+Fort Myer,Virginia
+Gainesville,Virginia
+Galax,Virginia
+Gasburg,Virginia
+Gate City,Virginia
+Glade Spring,Virginia
+Glen Allen,Virginia
+Gloucester Point,Virginia
+Goochland,Virginia
+Gordonsville,Virginia
+Great Falls,Virginia
+Greenbush,Virginia
+Greenville,Virginia
+Gretna,Virginia
+Grottoes,Virginia
+Grundy,Virginia
+Halifax,Virginia
+Hampden Sydney,Virginia
+Hampton,Virginia
+Hanover,Virginia
+Harrisonburg,Virginia
+Haymarket,Virginia
+Heathsville,Virginia
+Herndon,Virginia
+Highland Springs,Virginia
+Hillsville,Virginia
+Hinton,Virginia
+Honaker,Virginia
+Hopewell,Virginia
+Hot Springs,Virginia
+Huddleston,Virginia
+Independence,Virginia
+Irvington,Virginia
+Isle of Wight,Virginia
+Jamestown,Virginia
+Jarratt,Virginia
+Jetersville,Virginia
+Jonesville,Virginia
+Kenbridge,Virginia
+Keswick,Virginia
+Kilmarnock,Virginia
+King and Queen Court House,Virginia
+King George,Virginia
+King William,Virginia
+Kinsale,Virginia
+Lancaster,Virginia
+Lawrenceville,Virginia
+Lebanon,Virginia
+Leesburg,Virginia
+Lexington,Virginia
+Lightfoot,Virginia
+Lignum,Virginia
+Linden,Virginia
+Locust Grove,Virginia
+Lorton,Virginia
+Louisa,Virginia
+Lovettsville,Virginia
+Lovingston,Virginia
+Low Moor,Virginia
+Lunenburg,Virginia
+Luray,Virginia
+Lynchburg,Virginia
+Machipongo,Virginia
+Madison,Virginia
+Madison Heights,Virginia
+Manakin-Sabot,Virginia
+Manassas,Virginia
+Manquin,Virginia
+Marion,Virginia
+Martinsville,Virginia
+Mathews,Virginia
+McGaheysville,Virginia
+McLean,Virginia
+Meadowview,Virginia
+Mechanicsville,Virginia
+Melfa,Virginia
+Merrifield,Virginia
+Middleburg,Virginia
+Middletown,Virginia
+Midland,Virginia
+Midlothian,Virginia
+Millwood,Virginia
+Mineral,Virginia
+Monterey,Virginia
+Montross,Virginia
+Mount Vernon,Virginia
+Narrows,Virginia
+Nassawadox,Virginia
+Nellysford,Virginia
+New Castle,Virginia
+New Church,Virginia
+New Kent,Virginia
+New Market,Virginia
+New River,Virginia
+Newington,Virginia
+Newport News,Virginia
+Nokesville,Virginia
+Norfolk,Virginia
+Norton,Virginia
+Norwood,Virginia
+Nottoway Court House,Virginia
+Oakton,Virginia
+Occoquan,Virginia
+Oilville,Virginia
+Orange,Virginia
+Paeonian Springs,Virginia
+Painter,Virginia
+Palmyra,Virginia
+Pearisburg,Virginia
+Pembroke,Virginia
+Petersburg,Virginia
+Pocahontas,Virginia
+Poquoson,Virginia
+Portsmouth,Virginia
+Powhatan,Virginia
+Prince George,Virginia
+Prospect,Virginia
+Pulaski,Virginia
+Purcellville,Virginia
+Quantico,Virginia
+Quinton,Virginia
+Radford,Virginia
+Remington,Virginia
+Reston,Virginia
+Rhoadesville,Virginia
+Rich Creek,Virginia
+Richlands,Virginia
+Richmond,Virginia
+Roanoke,Virginia
+Rockville,Virginia
+Rocky Mount,Virginia
+Round Hill,Virginia
+Ruckersville,Virginia
+Rustburg,Virginia
+Salem,Virginia
+Saltville,Virginia
+Saluda,Virginia
+Sandston,Virginia
+Scottsville,Virginia
+Shawsville,Virginia
+Shenandoah,Virginia
+Smithfield,Virginia
+South Boston,Virginia
+South Hill,Virginia
+Sperryville,Virginia
+Spotsylvania,Virginia
+Springfield,Virginia
+Stafford,Virginia
+Stanardsville,Virginia
+Stanley,Virginia
+Staunton,Virginia
+Steeles Tavern,Virginia
+Stephens City,Virginia
+Sterling,Virginia
+Strasburg,Virginia
+Stuart,Virginia
+Stuarts Draft,Virginia
+Studley,Virginia
+Suffolk,Virginia
+Surry,Virginia
+Sussex,Virginia
+Sweet Briar,Virginia
+Tappahannock,Virginia
+Tazewell,Virginia
+The Plains,Virginia
+Toano,Virginia
+Triangle,Virginia
+Troutville,Virginia
+Troy,Virginia
+Upperville,Virginia
+Urbanna,Virginia
+Vansant,Virginia
+Verona,Virginia
+Victoria,Virginia
+Vienna,Virginia
+Vinton,Virginia
+Virgilina,Virginia
+Virginia Beach,Virginia
+Wakefield,Virginia
+Walkerton,Virginia
+Wallops Island,Virginia
+Warm Springs,Virginia
+Warrenton,Virginia
+Warsaw,Virginia
+Washington,Virginia
+Waterford,Virginia
+Wattsville,Virginia
+Waverly,Virginia
+Waynesboro,Virginia
+Weber City,Virginia
+West Point,Virginia
+Weyers Cave,Virginia
+White Stone,Virginia
+Williamsburg,Virginia
+Winchester,Virginia
+Wirtz,Virginia
+Wise,Virginia
+Woodberry Forest,Virginia
+Woodbridge,Virginia
+Woodlawn,Virginia
+Woodstock,Virginia
+Wytheville,Virginia
+Yorktown,Virginia
+Aquia Harbour,Virginia
+Bailey's Crossroads,Virginia
+Belle Haven,Virginia
+Bellwood,Virginia
+Bon Air,Virginia
+Brambleton,Virginia
+Brightwood,Virginia
+Bull Run,Virginia
+Cave Spring,Virginia
+Chamberlayne,Virginia
+Chilhowie,Virginia
+Crozet,Virginia
+Dale City,Virginia
+Dumbarton,Virginia
+East Highland Park,Virginia
+Falmouth,Virginia
+Fort Hunt,Virginia
+Franconia,Virginia
+Groveton,Virginia
+Hollins,Virginia
+Hybla Valley,Virginia
+Idylwood,Virginia
+Lake Monticello,Virginia
+Lake Ridge,Virginia
+Lakeside,Virginia
+Laurel,Virginia
+Lincolnia,Virginia
+Manassas Park,Virginia
+Mantua,Virginia
+Massanutten,Virginia
+Matoaca,Virginia
+Montclair,Virginia
+Montrose,Virginia
+North Springfield,Virginia
+Pennington Gap,Virginia
+Potomac Falls,Virginia
+Rose Hill,Virginia
+Short Pump,Virginia
+Timberlake,Virginia
+Tuckahoe,Virginia
+Tysons,Virginia
+West Falls Church,Virginia
+West Springfield,Virginia
+Wolf Trap,Virginia
+Woodlake,Virginia
+Wyndham,Virginia

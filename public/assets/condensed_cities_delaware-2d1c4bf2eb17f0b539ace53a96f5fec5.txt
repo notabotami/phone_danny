@@ -1,0 +1,56 @@
+Bear,Delaware
+Bethany Beach,Delaware
+Bridgeville,Delaware
+Cheswold,Delaware
+Claymont,Delaware
+Clayton,Delaware
+Dagsboro,Delaware
+Delaware City,Delaware
+Delmar,Delaware
+Dover,Delaware
+Dover Air Force Base,Delaware
+Felton,Delaware
+Fenwick Island,Delaware
+Frederica,Delaware
+Georgetown,Delaware
+Greenwood,Delaware
+Harrington,Delaware
+Hartly,Delaware
+Hockessin,Delaware
+Houston,Delaware
+Kenton,Delaware
+Laurel,Delaware
+Lewes,Delaware
+Little Creek,Delaware
+Magnolia,Delaware
+Middletown,Delaware
+Milford,Delaware
+Millsboro,Delaware
+Milton,Delaware
+New Castle,Delaware
+Newark,Delaware
+Ocean View,Delaware
+Odessa,Delaware
+Rehoboth Beach,Delaware
+Rockland,Delaware
+Seaford,Delaware
+Selbyville,Delaware
+Smyrna,Delaware
+Saint Georges,Delaware
+Townsend,Delaware
+Viola,Delaware
+Wilmington,Delaware
+Winterthur,Delaware
+Woodside,Delaware
+Yorklyn,Delaware
+Bellefonte,Delaware
+Brookside,Delaware
+Edgemoor,Delaware
+Elsmere,Delaware
+Glasgow,Delaware
+Greenville,Delaware
+Long Neck,Delaware
+Newport,Delaware
+North Star,Delaware
+Pike Creek,Delaware
+Wilmington Manor,Delaware

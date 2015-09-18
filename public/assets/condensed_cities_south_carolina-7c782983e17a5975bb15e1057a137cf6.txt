@@ -1,0 +1,221 @@
+Abbeville,South Carolina
+Aiken,South Carolina
+Allendale,South Carolina
+Anderson,South Carolina
+Andrews,South Carolina
+Arcadia,South Carolina
+Ballentine,South Carolina
+Bamberg,South Carolina
+Barnwell,South Carolina
+Batesburg-Leesville,South Carolina
+Bath,South Carolina
+Beaufort,South Carolina
+Belton,South Carolina
+Bennettsville,South Carolina
+Bishopville,South Carolina
+Blacksburg,South Carolina
+Blackville,South Carolina
+Bluffton,South Carolina
+Blythewood,South Carolina
+Branchville,South Carolina
+Calhoun Falls,South Carolina
+Camden,South Carolina
+Campobello,South Carolina
+Cayce,South Carolina
+Central,South Carolina
+Chapin,South Carolina
+Charleston,South Carolina
+Joint Base Charleston,South Carolina
+Cheraw,South Carolina
+Chesnee,South Carolina
+Chester,South Carolina
+Chesterfield,South Carolina
+Clemson,South Carolina
+Clinton,South Carolina
+Clover,South Carolina
+Columbia,South Carolina
+Conway,South Carolina
+Cottageville,South Carolina
+Dalzell,South Carolina
+Darlington,South Carolina
+Denmark,South Carolina
+Dillon,South Carolina
+Dorchester,South Carolina
+Due West,South Carolina
+Duncan,South Carolina
+Early Branch,South Carolina
+Easley,South Carolina
+Eastover,South Carolina
+Edgefield,South Carolina
+Seabrook Island,South Carolina
+Effingham,South Carolina
+Elgin,South Carolina
+Estill,South Carolina
+Fair Play,South Carolina
+Fairfax,South Carolina
+Fairforest,South Carolina
+Florence,South Carolina
+Folly Beach,South Carolina
+Fountain Inn,South Carolina
+Fort Lawn,South Carolina
+Fort Mill,South Carolina
+Gaffney,South Carolina
+Gaston,South Carolina
+Georgetown,South Carolina
+Gilbert,South Carolina
+Glendale,South Carolina
+Goose Creek,South Carolina
+Graniteville,South Carolina
+Gray Court,South Carolina
+Green Sea,South Carolina
+Greenville,South Carolina
+Greenwood,South Carolina
+Greer,South Carolina
+Hamer,South Carolina
+Hampton,South Carolina
+Hardeeville,South Carolina
+Hartsville,South Carolina
+Heath Springs,South Carolina
+Hilton Head Island,South Carolina
+Hodges,South Carolina
+Holly Hill,South Carolina
+Hollywood,South Carolina
+Honea Path,South Carolina
+Huger,South Carolina
+Inman,South Carolina
+Irmo,South Carolina
+Isle of Palms,South Carolina
+Iva,South Carolina
+Jackson,South Carolina
+Jefferson,South Carolina
+Jenkinsville,South Carolina
+Joanna,South Carolina
+Johns Island,South Carolina
+Johnsonville,South Carolina
+Johnston,South Carolina
+Jonesville,South Carolina
+Kershaw,South Carolina
+Kingstree,South Carolina
+La France,South Carolina
+Ladson,South Carolina
+Lake City,South Carolina
+Lamar,South Carolina
+Lancaster,South Carolina
+Landrum,South Carolina
+Latta,South Carolina
+Laurens,South Carolina
+Lexington,South Carolina
+Liberty,South Carolina
+Little River,South Carolina
+Loris,South Carolina
+Lugoff,South Carolina
+Lyman,South Carolina
+Lynchburg,South Carolina
+Manning,South Carolina
+Marion,South Carolina
+Mauldin,South Carolina
+Mayesville,South Carolina
+McClellanville,South Carolina
+McColl,South Carolina
+McCormick,South Carolina
+Moncks Corner,South Carolina
+Moore,South Carolina
+Mount Pleasant,South Carolina
+Mountville,South Carolina
+Mullins,South Carolina
+Murrells Inlet,South Carolina
+Myrtle Beach,South Carolina
+New Ellenton,South Carolina
+Newberry,South Carolina
+Ninety Six,South Carolina
+North,South Carolina
+North Augusta,South Carolina
+North Charleston,South Carolina
+North Myrtle Beach,South Carolina
+Orangeburg,South Carolina
+Pageland,South Carolina
+Pamplico,South Carolina
+Pauline,South Carolina
+Pawleys Island,South Carolina
+Pelion,South Carolina
+Pendleton,South Carolina
+Pickens,South Carolina
+Piedmont,South Carolina
+Pineland,South Carolina
+Port Royal,South Carolina
+Prosperity,South Carolina
+Rains,South Carolina
+Ravenel,South Carolina
+Richburg,South Carolina
+Richland,South Carolina
+Ridgeland,South Carolina
+Ridgeville,South Carolina
+Ridgeway,South Carolina
+Rock Hill,South Carolina
+Roebuck,South Carolina
+Salem,South Carolina
+Saluda,South Carolina
+Santee,South Carolina
+Scranton,South Carolina
+Seneca,South Carolina
+Shaw Air Force Base,South Carolina
+Simpsonville,South Carolina
+Spartanburg,South Carolina
+Springfield,South Carolina
+Saint George,South Carolina
+Saint Matthews,South Carolina
+Saint Stephen,South Carolina
+Summerton,South Carolina
+Summerville,South Carolina
+Sumter,South Carolina
+Swansea,South Carolina
+Taylors,South Carolina
+Timmonsville,South Carolina
+Travelers Rest,South Carolina
+Trenton,South Carolina
+Turbeville,South Carolina
+Union,South Carolina
+Varnville,South Carolina
+Walhalla,South Carolina
+Wallace,South Carolina
+Walterboro,South Carolina
+Ware Shoals,South Carolina
+West Columbia,South Carolina
+Westminster,South Carolina
+Whitmire,South Carolina
+Williamston,South Carolina
+Williston,South Carolina
+Winnsboro,South Carolina
+Woodruff,South Carolina
+York,South Carolina
+Aynor,South Carolina
+Berea,South Carolina
+Boiling Springs,South Carolina
+Carolina Forest,South Carolina
+Dentsville,South Carolina
+Five Forks,South Carolina
+Forest Acres,South Carolina
+Gantt,South Carolina
+Garden City,South Carolina
+Golden Grove,South Carolina
+Hanahan,South Carolina
+Kiawah Island,South Carolina
+Lake Wylie,South Carolina
+Powdersville,South Carolina
+Red Bank,South Carolina
+Reidville,South Carolina
+Ridge Spring,South Carolina
+Sans Souci,South Carolina
+Seven Oaks,South Carolina
+Socastee,South Carolina
+Southern Shops,South Carolina
+Springdale,South Carolina
+Saint Andrews,South Carolina
+Starr,South Carolina
+Surfside Beach,South Carolina
+Tega Cay,South Carolina
+Valley Falls,South Carolina
+Wade Hampton,South Carolina
+Wagener,South Carolina
+Welcome,South Carolina
+Woodfield,South Carolina
