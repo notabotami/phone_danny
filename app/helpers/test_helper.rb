@@ -45,7 +45,7 @@ module TestHelper
 		link_state = link_state.gsub(" ", "_")
 		link_state = link_state.rstrip
 
-		link = "/home/%s/%s" % [link_state,link_city]
+		link = "/home_%s_%s?state=%s&city=%s" % [link_state,link_city,link_state,link_city]
 
 
 		s = "<a href='%s'>%s, %s</a>" % [link,city,state]

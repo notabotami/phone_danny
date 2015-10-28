@@ -18,6 +18,11 @@ class HomeController < ApplicationController
   		@located_city = false
 
   	else
+      session[:city] = city
+      session[:state] = state
+      @city = city
+      @state = state
+      
   		@city_formal = TestHelper.formalize(city)
   		@state_formal = TestHelper.formalize(state)
   	end

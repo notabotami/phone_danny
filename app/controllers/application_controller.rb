@@ -6,13 +6,14 @@ class ApplicationController < ActionController::Base
   before_filter :setCityState
 
   def setCityState
-  	logger.tagged("ApplicationController") {params}
-  	city = params[:city]
-  	state = params[:state]
 
-  	
-  	session[:accesspoint_city] = city
-  	session[:accesspoint_state] = state
+  	@city = nil
+    @state = nil
+
+    if (not session[:state].nil?) and (not session[:city].nil?)
+      @city = session[:city]
+      @state = session[:state]
+    end
   end
 
 end

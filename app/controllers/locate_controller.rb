@@ -30,4 +30,5 @@ class LocateController < ApplicationController
   end
 
 
+
 end
