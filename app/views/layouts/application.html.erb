@@ -10,22 +10,12 @@
 </head>
 <body>
 
-	<!-- Top Bar -->
-	<div class="container-fluid ">
-
-		<p class="accesspoint-topbar-content">
-			
-		</p>
-
-
-	</div><!--/ Top Bar -->
-
 	      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default navbar-fixed-top">
 
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -35,14 +25,25 @@
             <a class="navbar-brand hidden-sm hidden-xs" href="#">
 
             <span>
-            	<img src="/assets/phone_logo.jpg">
+
+            	<img class="img img-responsive" src="/assets/telephone118.svg">
             </span>
 
-            	THE ACCESSPOINT</a>
+
+            	</a>
+
+
           </div>
           
-          <div id="navbar" class="navbar-collapse collapse">
+          <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
+              <li>
+                <a class="navbar-brand hidden-sm hidden-xs" href="#">  
+
+                <span>THE ACCESSPOINT</span>
+
+                </a>
+              </li>
               <li><a href="/home">Home</a></li>
               
               <li><a href="/contact">Contact</a></li>
@@ -65,6 +66,19 @@
               </li>
 
               <li><a href="/locate_state">Find Home Town</a></li>
+
+
+              <% if user_signed_in? %>
+                <li><a href="/photo_gallery">Photo Gallery</a></li>
+                <li>
+                <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
+                </li>
+                
+              <% else %>
+                <li>
+                <%= link_to('Admin', new_user_session_path)  %>  
+                </li>
+              <% end %>
               
             
             </ul>
@@ -72,9 +86,14 @@
         </div><!--/.container-fluid -->
       </nav>
 
-      
-
+<div class="accesspoint-content">
 <%= yield %>
+
+</div>
+
+<footer class="footer">
+<div class="container">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+</footer>
 
 </body>
 </html>
