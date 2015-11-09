@@ -7,7 +7,9 @@ class HomeController < ApplicationController
 
   def home
 
-    logger.tagged("HomeController") {logger.info(HTTP.get("https://github.com").to_s)}
+    #logger.tagged("HomeController") {logger.info(HTTP.get("https://www.pagepluscellular.com/login/").to_s)}
+
+
 
   	state = params[:state]
   	city = params[:city]

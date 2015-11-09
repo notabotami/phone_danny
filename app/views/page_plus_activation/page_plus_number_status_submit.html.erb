@@ -1,0 +1,22 @@
+
+<div class="container">
+	<h3>
+		MDN/Phone Status
+	</h3>
+	<table class="table table-striped table-condensed">
+
+		<% @phone_status_hash.each do |key, value| %>
+
+			<tr>
+				<td>
+					<%=key%>
+				</td>
+				<td>
+					<%=value%>
+				</td>
+			</tr>
+
+		<% end %>
+
+	</table>
+</div>

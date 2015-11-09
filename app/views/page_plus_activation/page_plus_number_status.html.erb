@@ -1,0 +1,35 @@
+<div class="container">
+	
+
+	<form accept-charset="UTF-8" action="/page_plus_number_status_submit" method="post" role="form" class="form-horizontal">
+  <input type="hidden" name="authenticity_token" value=<%= form_authenticity_token %>>
+
+  <div class="form-group">
+    <%if @correct_number_format%>
+      <p class='accesspoint-warning'>
+        Sorry, that isn't the correct format.
+      </p>
+    <%end%>
+  </div>
+  <div class="form-group">
+    <div class='col-sm-6'>
+      <label for="name">Phone Number</label>
+      <br>
+      <input type="text" name='phone_number' class="form-control">
+    </div>
+
+    <div class='col-sm-6'>
+
+    </div>
+
+  </div>
+
+   <div class="checkbox form-group">
+    <div class="col-sm-12">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+
+</form>
+
+</div>

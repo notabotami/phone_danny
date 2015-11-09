@@ -25,5 +25,11 @@ Rails.application.routes.draw do
   
   post '/page_plus_activation_submit', to:'page_plus_activation#page_plus_activation_submit'
   
+  get '/page_plus_number_status', to: 'page_plus_activation#page_plus_number_status'
+  get '/:page_plus_number_status_alt', to: 'page_plus_activation#page_plus_number_status', constraints: {page_plus_number_status_alt: /page_plus_number_status_[a-z_]+_[a-z_]+/}
+
+  post '/page_plus_number_status_submit', to: 'page_plus_activation#page_plus_number_status_submit'
+  post '/:page_plus_number_status_submit_alt', to: 'page_plus_activation#page_plus_number_status_submit', constraints: {page_plus_number_status_submit_alt: /page_plus_number_status_submit_[a-z_]+_[a-z_]+/}
+
   root :to => redirect('/home')
 end

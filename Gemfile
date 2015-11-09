@@ -27,6 +27,7 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'coffee-rails', '~> 4.0.0'
 
 gem 'http'
+gem 'mechanize'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
