@@ -13,7 +13,9 @@ class ApplicationController < ActionController::Base
     if (not session[:state].nil?) and (not session[:city].nil?)
       @city = session[:city]
       @state = session[:state]
+      @located_city = true
     end
+    @located_city = false
   end
 
 end
