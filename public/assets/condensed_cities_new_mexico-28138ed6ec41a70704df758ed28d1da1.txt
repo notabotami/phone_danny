@@ -1,0 +1,120 @@
+Alamogordo,New Mexico
+Albuquerque,New Mexico
+Algodones,New Mexico
+Alto,New Mexico
+Angel Fire,New Mexico
+Animas,New Mexico
+Anthony,New Mexico
+Artesia,New Mexico
+Aztec,New Mexico
+Bayard,New Mexico
+Belen,New Mexico
+Bernalillo,New Mexico
+Bloomfield,New Mexico
+Bosque,New Mexico
+Bosque Farms,New Mexico
+Buena Vista,New Mexico
+Cannon Air Force Base,New Mexico
+Capitan,New Mexico
+Carlsbad,New Mexico
+Carrizozo,New Mexico
+Cedar Crest,New Mexico
+Los Cerrillos,New Mexico
+Chama,New Mexico
+Church Rock,New Mexico
+Clayton,New Mexico
+Cloudcroft,New Mexico
+Clovis,New Mexico
+Corrales,New Mexico
+Crownpoint,New Mexico
+Cuba,New Mexico
+Datil,New Mexico
+Deming,New Mexico
+Des Moines,New Mexico
+Dora,New Mexico
+Dulce,New Mexico
+Edgewood,New Mexico
+El Rito,New Mexico
+Elida,New Mexico
+Espanola,New Mexico
+Estancia,New Mexico
+Farmington,New Mexico
+Fence Lake,New Mexico
+Flora Vista,New Mexico
+Floyd,New Mexico
+Fort Sumner,New Mexico
+Gallup,New Mexico
+Garfield,New Mexico
+Grants,New Mexico
+Hatch,New Mexico
+Hobbs,New Mexico
+Holloman Air Force Base,New Mexico
+Jemez Springs,New Mexico
+Kirtland,New Mexico
+La Mesa,New Mexico
+Laguna,New Mexico
+Las Cruces,New Mexico
+Las Vegas,New Mexico
+Lordsburg,New Mexico
+Los Alamos,New Mexico
+Los Lunas,New Mexico
+Los Ojos,New Mexico
+Lovington,New Mexico
+Magdalena,New Mexico
+Maxwell,New Mexico
+Melrose,New Mexico
+Mescalero,New Mexico
+Mesquite,New Mexico
+Montezuma,New Mexico
+Mora,New Mexico
+Moriarty,New Mexico
+Mosquero,New Mexico
+Mountainair,New Mexico
+Ojo Caliente,New Mexico
+Penasco,New Mexico
+Peralta,New Mexico
+Mountain View,New Mexico
+Placitas,New Mexico
+Portales,New Mexico
+Radium Springs,New Mexico
+Ramah,New Mexico
+Raton,New Mexico
+Red River,New Mexico
+Rehoboth,New Mexico
+Reserve,New Mexico
+Rincon,New Mexico
+Rio Rancho,New Mexico
+Rociada,New Mexico
+Roswell,New Mexico
+Roy,New Mexico
+Ruidoso,New Mexico
+Salem,New Mexico
+Sandia Park,New Mexico
+Santa Cruz,New Mexico
+Santa Fe,New Mexico
+Santa Rosa,New Mexico
+Shiprock,New Mexico
+Silver City,New Mexico
+Socorro,New Mexico
+Springer,New Mexico
+Sunland Park,New Mexico
+Sunspot,New Mexico
+Taos,New Mexico
+Tesuque,New Mexico
+Texico,New Mexico
+Thoreau,New Mexico
+Tierra Amarilla,New Mexico
+Tijeras,New Mexico
+Tohatchi,New Mexico
+Truth or Consequences,New Mexico
+Tucumcari,New Mexico
+Tularosa,New Mexico
+Vanderwagen,New Mexico
+Vaughn,New Mexico
+Villanueva,New Mexico
+Waterflow,New Mexico
+Watrous,New Mexico
+Zuni,New Mexico
+Pecos,New Mexico
+Cuyamungue,New Mexico
+South Valley,New Mexico

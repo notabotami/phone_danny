@@ -1,0 +1,236 @@
+Adams,Oregon
+Adrian,Oregon
+Agness,Oregon
+Albany,Oregon
+Alsea,Oregon
+Amity,Oregon
+Arlington,Oregon
+Ashland,Oregon
+Astoria,Oregon
+Athena,Oregon
+Aumsville,Oregon
+Aurora,Oregon
+Baker City,Oregon
+Bandon,Oregon
+Banks,Oregon
+Beavercreek,Oregon
+Beaverton,Oregon
+Bend,Oregon
+Blachly,Oregon
+Bly,Oregon
+Boardman,Oregon
+Boring,Oregon
+Brookings,Oregon
+Brothers,Oregon
+Brownsville,Oregon
+Burns,Oregon
+Butte Falls,Oregon
+Camas Valley,Oregon
+Camp Sherman,Oregon
+Canby,Oregon
+Cannon Beach,Oregon
+Canyonville,Oregon
+Cascade Locks,Oregon
+Cave Junction,Oregon
+Central Point,Oregon
+Chemult,Oregon
+Chiloquin,Oregon
+Christmas Valley,Oregon
+Clackamas,Oregon
+Clatskanie,Oregon
+Colton,Oregon
+Condon,Oregon
+Coos Bay,Oregon
+Coquille,Oregon
+Corbett,Oregon
+Cornelius,Oregon
+Corvallis,Oregon
+Cottage Grove,Oregon
+Cove,Oregon
+Crabtree,Oregon
+Crane,Oregon
+Creswell,Oregon
+Culver,Oregon
+Dallas,Oregon
+Days Creek,Oregon
+Dayton,Oregon
+Deer Island,Oregon
+Depoe Bay,Oregon
+Diamond,Oregon
+Drain,Oregon
+Dufur,Oregon
+Dundee,Oregon
+Eagle Creek,Oregon
+Eagle Point,Oregon
+Echo,Oregon
+Elgin,Oregon
+Elkton,Oregon
+Elmira,Oregon
+Enterprise,Oregon
+Estacada,Oregon
+Eugene,Oregon
+Fairview,Oregon
+Falls City,Oregon
+Fields,Oregon
+Florence,Oregon
+Forest Grove,Oregon
+Fossil,Oregon
+Gardiner,Oregon
+Gaston,Oregon
+Gervais,Oregon
+Gladstone,Oregon
+Glendale,Oregon
+Gleneden Beach,Oregon
+Glide,Oregon
+Gold Beach,Oregon
+Grand Ronde,Oregon
+Grants Pass,Oregon
+Grass Valley,Oregon
+Gresham,Oregon
+Halfway,Oregon
+Halsey,Oregon
+Harrisburg,Oregon
+Hebo,Oregon
+Helix,Oregon
+Heppner,Oregon
+Hermiston,Oregon
+Hillsboro,Oregon
+Hines,Oregon
+Hood River,Oregon
+Hubbard,Oregon
+Imbler,Oregon
+Independence,Oregon
+Jacksonville,Oregon
+Jefferson,Oregon
+John Day,Oregon
+Joseph,Oregon
+Junction City,Oregon
+Keizer,Oregon
+Keno,Oregon
+Klamath Falls,Oregon
+La Grande,Oregon
+La Pine,Oregon
+Lake Oswego,Oregon
+Lakeside,Oregon
+Lakeview,Oregon
+Langlois,Oregon
+Lebanon,Oregon
+Lexington,Oregon
+Lincoln City,Oregon
+Lowell,Oregon
+Lyons,Oregon
+Madras,Oregon
+Mapleton,Oregon
+Marcola,Oregon
+Marion,Oregon
+Marylhurst,Oregon
+McMinnville,Oregon
+Medford,Oregon
+Merlin,Oregon
+Mill City,Oregon
+Milton-Freewater,Oregon
+Mitchell,Oregon
+Molalla,Oregon
+Monroe,Oregon
+Mosier,Oregon
+Mount Angel,Oregon
+Parkdale,Oregon
+Mount Vernon,Oregon
+Murphy,Oregon
+Myrtle Creek,Oregon
+Myrtle Point,Oregon
+Newberg,Oregon
+Newport,Oregon
+North Bend,Oregon
+North Plains,Oregon
+North Powder,Oregon
+Nyssa,Oregon
+Oakland,Oregon
+Oakridge,Oregon
+Ontario,Oregon
+Oregon City,Oregon
+Paisley,Oregon
+Pendleton,Oregon
+Philomath,Oregon
+Phoenix,Oregon
+Pilot Rock,Oregon
+Pleasant Hill,Oregon
+Port Orford,Oregon
+Portland,Oregon
+Powers,Oregon
+Prineville,Oregon
+Prospect,Oregon
+Rainier,Oregon
+Redmond,Oregon
+Reedsport,Oregon
+Riddle,Oregon
+Rockaway Beach,Oregon
+Rogue River,Oregon
+Roseburg,Oregon
+Rufus,Oregon
+Salem,Oregon
+Sandy,Oregon
+Scappoose,Oregon
+Scio,Oregon
+Seal Rock,Oregon
+Seaside,Oregon
+Selma,Oregon
+Sheridan,Oregon
+Sherwood,Oregon
+Silver Lake,Oregon
+Silverton,Oregon
+Sisters,Oregon
+South Beach,Oregon
+Spray,Oregon
+Springfield,Oregon
+Saint Benedict,Oregon
+Saint Helens,Oregon
+Saint Paul,Oregon
+Stanfield,Oregon
+Stayton,Oregon
+Sutherlin,Oregon
+Sweet Home,Oregon
+Talent,Oregon
+Tangent,Oregon
+The Dalles,Oregon
+Tillamook,Oregon
+Troutdale,Oregon
+Tualatin,Oregon
+Turner,Oregon
+Ukiah,Oregon
+Umatilla,Oregon
+Union,Oregon
+Vale,Oregon
+Veneta,Oregon
+Vernonia,Oregon
+Vida,Oregon
+Wallowa,Oregon
+Warm Springs,Oregon
+Warrenton,Oregon
+Wasco,Oregon
+West Linn,Oregon
+Weston,Oregon
+Wheeler,Oregon
+White City,Oregon
+Willamina,Oregon
+Williams,Oregon
+Wilsonville,Oregon
+Winston,Oregon
+Woodburn,Oregon
+Yachats,Oregon
+Yamhill,Oregon
+Yoncalla,Oregon
+Aloha,Oregon
+Damascus,Oregon
+Happy Valley,Oregon
+Manzanita,Oregon
+Milwaukie,Oregon
+Monmouth,Oregon
+Mulino,Oregon
+Oak Grove,Oregon
+Oatfield,Oregon
+Sunnyside,Oregon
+Three Rivers,Oregon
+Tigard,Oregon
+Waldport,Oregon
+West Haven-Sylvan,Oregon

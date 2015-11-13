@@ -1,0 +1,498 @@
+Ackley,Iowa
+Adair,Iowa
+Adel,Iowa
+Afton,Iowa
+Agency,Iowa
+Ainsworth,Iowa
+Akron,Iowa
+Albert City,Iowa
+Albia,Iowa
+Alburnett,Iowa
+Alden,Iowa
+Alexander,Iowa
+Algona,Iowa
+Alleman,Iowa
+Allerton,Iowa
+Allison,Iowa
+Alta,Iowa
+Altoona,Iowa
+Amana,Iowa
+Ames,Iowa
+Anamosa,Iowa
+Andrew,Iowa
+Anita,Iowa
+Ankeny,Iowa
+Anthon,Iowa
+Aplington,Iowa
+Arcadia,Iowa
+Arlington,Iowa
+Armstrong,Iowa
+Atlantic,Iowa
+Audubon,Iowa
+Aurelia,Iowa
+Avoca,Iowa
+Badger,Iowa
+Baldwin,Iowa
+Batavia,Iowa
+Baxter,Iowa
+Bedford,Iowa
+Belle Plaine,Iowa
+Bellevue,Iowa
+Belmond,Iowa
+Bennett,Iowa
+Benton,Iowa
+Bernard,Iowa
+Bettendorf,Iowa
+Blairsburg,Iowa
+Blairstown,Iowa
+Bloomfield,Iowa
+Bode,Iowa
+Bonaparte,Iowa
+Bondurant,Iowa
+Boone,Iowa
+Boxholm,Iowa
+Boyden,Iowa
+Breda,Iowa
+Britt,Iowa
+Brooklyn,Iowa
+Buffalo Center,Iowa
+Burlington,Iowa
+Burnside,Iowa
+Burt,Iowa
+Bussey,Iowa
+Callender,Iowa
+Calmar,Iowa
+Camanche,Iowa
+Cantril,Iowa
+Carlisle,Iowa
+Carroll,Iowa
+Carson,Iowa
+Carter Lake,Iowa
+Cascade,Iowa
+Casey,Iowa
+Castana,Iowa
+Cedar Falls,Iowa
+Cedar Rapids,Iowa
+Center Junction,Iowa
+Center Point,Iowa
+Centerville,Iowa
+Central City,Iowa
+Chariton,Iowa
+Charles City,Iowa
+Charter Oak,Iowa
+Cherokee,Iowa
+Churdan,Iowa
+Clarence,Iowa
+Clarinda,Iowa
+Clarion,Iowa
+Clarksville,Iowa
+Clear Lake,Iowa
+Clinton,Iowa
+Clive,Iowa
+Coin,Iowa
+Colesburg,Iowa
+Colfax,Iowa
+College Springs,Iowa
+Colo,Iowa
+Columbus Junction,Iowa
+Conrad,Iowa
+Coon Rapids,Iowa
+Coralville,Iowa
+Corning,Iowa
+Correctionville,Iowa
+Corydon,Iowa
+Council Bluffs,Iowa
+Crescent,Iowa
+Cresco,Iowa
+Creston,Iowa
+Crystal Lake,Iowa
+Cumberland,Iowa
+Cumming,Iowa
+Cylinder,Iowa
+Dakota City,Iowa
+Melcher-Dallas,Iowa
+Dallas Center,Iowa
+Danville,Iowa
+Davenport,Iowa
+De Soto,Iowa
+DeWitt,Iowa
+Decatur City,Iowa
+Decorah,Iowa
+Defiance,Iowa
+Delhi,Iowa
+Delmar,Iowa
+Denison,Iowa
+Denver,Iowa
+Des Moines,Iowa
+Dexter,Iowa
+Diagonal,Iowa
+Dickens,Iowa
+Dike,Iowa
+Donnellson,Iowa
+Doon,Iowa
+Dows,Iowa
+Dubuque,Iowa
+Dumont,Iowa
+Dunkerton,Iowa
+Dunlap,Iowa
+Durant,Iowa
+Dyersville,Iowa
+Dysart,Iowa
+Eagle Grove,Iowa
+Earlham,Iowa
+Earling,Iowa
+Eddyville,Iowa
+Edgewood,Iowa
+Eldon,Iowa
+Eldora,Iowa
+Eldridge,Iowa
+Elgin,Iowa
+Elk Horn,Iowa
+Elkader,Iowa
+Ellsworth,Iowa
+Emerson,Iowa
+Emmetsburg,Iowa
+Epworth,Iowa
+Essex,Iowa
+Estherville,Iowa
+Everly,Iowa
+Exira,Iowa
+Fairbank,Iowa
+Fairfield,Iowa
+Farley,Iowa
+Farragut,Iowa
+Fayette,Iowa
+Fenton,Iowa
+Ferguson,Iowa
+Fontanelle,Iowa
+Forest City,Iowa
+Fredericksburg,Iowa
+Fremont,Iowa
+Fort Dodge,Iowa
+Fort Madison,Iowa
+Garnavillo,Iowa
+Garner,Iowa
+Garwin,Iowa
+George,Iowa
+Gilbert,Iowa
+Gillett Grove,Iowa
+Gilman,Iowa
+Gladbrook,Iowa
+Glenwood,Iowa
+Glidden,Iowa
+Goldfield,Iowa
+Goose Lake,Iowa
+Gowrie,Iowa
+Graettinger,Iowa
+Grand Junction,Iowa
+Grand Mound,Iowa
+Granger,Iowa
+Granville,Iowa
+Greene,Iowa
+Greenfield,Iowa
+Grimes,Iowa
+Grinnell,Iowa
+Griswold,Iowa
+Grundy Center,Iowa
+Guthrie Center,Iowa
+Guttenberg,Iowa
+Hamburg,Iowa
+Hampton,Iowa
+Harlan,Iowa
+Hartley,Iowa
+Hartwick,Iowa
+Hastings,Iowa
+Havelock,Iowa
+Hawarden,Iowa
+Henderson,Iowa
+Hiawatha,Iowa
+Hills,Iowa
+Hinton,Iowa
+Holstein,Iowa
+Hornick,Iowa
+Hospers,Iowa
+Hubbard,Iowa
+Hudson,Iowa
+Hull,Iowa
+Humboldt,Iowa
+Humeston,Iowa
+Huxley,Iowa
+Ida Grove,Iowa
+Independence,Iowa
+Indianola,Iowa
+Inwood,Iowa
+Iowa City,Iowa
+Iowa Falls,Iowa
+Janesville,Iowa
+Jefferson,Iowa
+Jesup,Iowa
+Jewell,Iowa
+Johnston,Iowa
+Kalona,Iowa
+Kamrar,Iowa
+Kanawha,Iowa
+Kensett,Iowa
+Keokuk,Iowa
+Keosauqua,Iowa
+Keota,Iowa
+Keystone,Iowa
+Kingsley,Iowa
+Knoxville,Iowa
+La Porte City,Iowa
+Lake City,Iowa
+Lake Mills,Iowa
+Lake Park,Iowa
+Lake View,Iowa
+Lamoni,Iowa
+Lansing,Iowa
+Latimer,Iowa
+Laurel,Iowa
+Laurens,Iowa
+Lawton,Iowa
+Le Mars,Iowa
+Lehigh,Iowa
+Lenox,Iowa
+Leon,Iowa
+Letts,Iowa
+Liberty Center,Iowa
+Lime Springs,Iowa
+Lineville,Iowa
+Lisbon,Iowa
+Livermore,Iowa
+Logan,Iowa
+Lone Tree,Iowa
+Lost Nation,Iowa
+Lovilia,Iowa
+Lu Verne,Iowa
+Lynnville,Iowa
+Madrid,Iowa
+Malcom,Iowa
+Mallard,Iowa
+Malvern,Iowa
+Manchester,Iowa
+Manilla,Iowa
+Manly,Iowa
+Manning,Iowa
+Manson,Iowa
+Mapleton,Iowa
+Maquoketa,Iowa
+Marcus,Iowa
+Marengo,Iowa
+Marion,Iowa
+Marshalltown,Iowa
+Martelle,Iowa
+Martensdale,Iowa
+Mason City,Iowa
+Massena,Iowa
+Maxwell,Iowa
+Maynard,Iowa
+McCallsburg,Iowa
+McClelland,Iowa
+McGregor,Iowa
+Mechanicsville,Iowa
+Mediapolis,Iowa
+Melbourne,Iowa
+Meriden,Iowa
+Miles,Iowa
+Milford,Iowa
+Millersburg,Iowa
+Minburn,Iowa
+Missouri Valley,Iowa
+Mitchellville,Iowa
+Mondamin,Iowa
+Monona,Iowa
+Montezuma,Iowa
+Monticello,Iowa
+Moorhead,Iowa
+Morning Sun,Iowa
+Moscow,Iowa
+Moulton,Iowa
+Mount Ayr,Iowa
+Mount Pleasant,Iowa
+Mount Vernon,Iowa
+Moville,Iowa
+Murray,Iowa
+Muscatine,Iowa
+Nashua,Iowa
+Neola,Iowa
+Nevada,Iowa
+New Hampton,Iowa
+New London,Iowa
+New Market,Iowa
+New Sharon,Iowa
+Newell,Iowa
+Newhall,Iowa
+Newton,Iowa
+Nora Springs,Iowa
+North English,Iowa
+North Liberty,Iowa
+Northwood,Iowa
+Norwalk,Iowa
+Norway,Iowa
+Oakland,Iowa
+Oakville,Iowa
+Ocheyedan,Iowa
+Odebolt,Iowa
+Oelwein,Iowa
+Ogden,Iowa
+Okoboji,Iowa
+Olin,Iowa
+Onawa,Iowa
+Oran,Iowa
+Orange City,Iowa
+Orient,Iowa
+Osage,Iowa
+Osceola,Iowa
+Oskaloosa,Iowa
+Ottumwa,Iowa
+Oxford,Iowa
+Oxford Junction,Iowa
+Packwood,Iowa
+Palmer,Iowa
+Palo,Iowa
+Panama,Iowa
+Panora,Iowa
+Parkersburg,Iowa
+Patterson,Iowa
+Paullina,Iowa
+Pella,Iowa
+Peosta,Iowa
+Perry,Iowa
+Plainfield,Iowa
+Pleasantville,Iowa
+Pocahontas,Iowa
+Pomeroy,Iowa
+Postville,Iowa
+Prairie City,Iowa
+Preston,Iowa
+Primghar,Iowa
+Ralston,Iowa
+Readlyn,Iowa
+Red Oak,Iowa
+Reinbeck,Iowa
+Remsen,Iowa
+Riceville,Iowa
+Richland,Iowa
+Ringsted,Iowa
+Riverside,Iowa
+Robins,Iowa
+Rock Rapids,Iowa
+Rock Valley,Iowa
+Rockford,Iowa
+Rockwell,Iowa
+Rockwell City,Iowa
+Rudd,Iowa
+Runnells,Iowa
+Ruthven,Iowa
+Sabula,Iowa
+Sac City,Iowa
+Salix,Iowa
+Schaller,Iowa
+Schleswig,Iowa
+Scranton,Iowa
+Sergeant Bluff,Iowa
+Seymour,Iowa
+Sheffield,Iowa
+Shelby,Iowa
+Sheldon,Iowa
+Shell Rock,Iowa
+Shellsburg,Iowa
+Shenandoah,Iowa
+Sibley,Iowa
+Sidney,Iowa
+Sigourney,Iowa
+Sioux Center,Iowa
+Sioux City,Iowa
+Sioux Rapids,Iowa
+Slater,Iowa
+Sloan,Iowa
+Solon,Iowa
+South English,Iowa
+Spencer,Iowa
+Sperry,Iowa
+Spillville,Iowa
+Spirit Lake,Iowa
+Springville,Iowa
+Saint Ansgar,Iowa
+Saint Anthony,Iowa
+Saint Charles,Iowa
+Stanhope,Iowa
+Stanton,Iowa
+Stanwood,Iowa
+State Center,Iowa
+Storm Lake,Iowa
+Story City,Iowa
+Stratford,Iowa
+Strawberry Point,Iowa
+Stuart,Iowa
+Sully,Iowa
+Sumner,Iowa
+Superior,Iowa
+Swea City,Iowa
+Swisher,Iowa
+Tabor,Iowa
+Tama,Iowa
+Terril,Iowa
+Thompson,Iowa
+Thornburg,Iowa
+Thornton,Iowa
+Tiffin,Iowa
+Tipton,Iowa
+Titonka,Iowa
+Toledo,Iowa
+Traer,Iowa
+Treynor,Iowa
+Tripoli,Iowa
+Troy Mills,Iowa
+Truro,Iowa
+Underwood,Iowa
+Union,Iowa
+Unionville,Iowa
+Urbana,Iowa
+Urbandale,Iowa
+Vail,Iowa
+Van Horne,Iowa
+Van Meter,Iowa
+Ventura,Iowa
+Victor,Iowa
+Villisca,Iowa
+Vinton,Iowa
+Walcott,Iowa
+Wall Lake,Iowa
+Walnut,Iowa
+Wapello,Iowa
+Washington,Iowa
+Waterloo,Iowa
+Waucoma,Iowa
+Waukee,Iowa
+Waukon,Iowa
+Waverly,Iowa
+Wayland,Iowa
+Webster City,Iowa
+Wellman,Iowa
+Wellsburg,Iowa
+Wesley,Iowa
+West Bend,Iowa
+West Branch,Iowa
+West Burlington,Iowa
+West Des Moines,Iowa
+West Liberty,Iowa
+West Point,Iowa
+West Union,Iowa
+Westside,Iowa
+What Cheer,Iowa
+Wheatland,Iowa
+Whiting,Iowa
+Williamsburg,Iowa
+Wilton,Iowa
+Winterset,Iowa
+Winthrop,Iowa
+Woden,Iowa
+Woodbine,Iowa
+Woodward,Iowa
+Woolstock,Iowa
+Wyoming,Iowa
+Zearing,Iowa
+Ely,Iowa
+Le Claire,Iowa
+Pleasant Hill,Iowa

@@ -1,0 +1,122 @@
+Arlington,Vermont
+Bakersfield,Vermont
+Barre,Vermont
+Bennington,Vermont
+Bethel,Vermont
+Bradford,Vermont
+Brandon,Vermont
+Brattleboro,Vermont
+Bristol,Vermont
+Brookfield,Vermont
+Burlington,Vermont
+Cabot,Vermont
+Castleton,Vermont
+Cavendish,Vermont
+Charlotte,Vermont
+Chelsea,Vermont
+Chester,Vermont
+Chittenden,Vermont
+Colchester,Vermont
+Craftsbury,Vermont
+Danby,Vermont
+Danville,Vermont
+Dorset,Vermont
+East Montpelier,Vermont
+Essex,Vermont
+Fairlee,Vermont
+Franklin,Vermont
+Grafton,Vermont
+Grand Isle,Vermont
+Hartford,Vermont
+Hartland,Vermont
+Highgate Center,Vermont
+Hinesburg,Vermont
+Jericho,Vermont
+Johnson,Vermont
+Killington,Vermont
+Londonderry,Vermont
+Ludlow,Vermont
+Lunenburg,Vermont
+Manchester,Vermont
+Marlboro,Vermont
+Middlebury,Vermont
+Middletown Springs,Vermont
+Milton,Vermont
+Montpelier,Vermont
+Moretown,Vermont
+Morgan,Vermont
+Mount Holly,Vermont
+Newbury,Vermont
+Newport,Vermont
+North Hero,Vermont
+Northfield,Vermont
+Norton,Vermont
+Norwich,Vermont
+Pittsfield,Vermont
+Pittsford,Vermont
+Plainfield,Vermont
+Plymouth,Vermont
+Pownal,Vermont
+Proctor,Vermont
+Putney,Vermont
+Randolph,Vermont
+Reading,Vermont
+Richford,Vermont
+Richmond,Vermont
+Rochester,Vermont
+Rutland,Vermont
+Shelburne,Vermont
+Shoreham,Vermont
+South Burlington,Vermont
+Springfield,Vermont
+Saint Albans City,Vermont
+Stamford,Vermont
+Stockbridge,Vermont
+Stowe,Vermont
+Swanton,Vermont
+Townshend,Vermont
+Troy,Vermont
+Tunbridge,Vermont
+Underhill,Vermont
+Vergennes,Vermont
+Vernon,Vermont
+Waitsfield,Vermont
+Wardsboro,Vermont
+Washington,Vermont
+Waterbury,Vermont
+West Pawlet,Vermont
+Westford,Vermont
+Weston,Vermont
+Williamstown,Vermont
+Williston,Vermont
+Wilmington,Vermont
+Windsor,Vermont
+Winooski,Vermont
+Wolcott,Vermont
+Woodstock,Vermont
+Alburgh,Vermont
+Arlington,Vermont
+Bennington,Vermont
+Bradford,Vermont
+Brandon,Vermont
+Brattleboro,Vermont
+Bristol,Vermont
+Cabot,Vermont
+Cornwall,Vermont
+Jay,Vermont
+Jericho,Vermont
+Johnson,Vermont
+Ludlow,Vermont
+Lyndon,Vermont
+Manchester,Vermont
+Middlebury,Vermont
+Milton,Vermont
+Morristown,Vermont
+Northfield,Vermont
+Town of Rockingham,Vermont
+Royalton,Vermont
+Springfield,Vermont
+Saint Johnsbury,Vermont
+Swanton,Vermont
+Warren,Vermont
+Waterbury,Vermont
