@@ -6,7 +6,19 @@ class ChargesController < ApplicationController
 
 	def create
 	  # Amount in cents
-	  @amount = 500
+	  @amount=params[:amount]
+	  if @amount == "500" then
+	  	@amount = 500
+	  elsif @amount == "1000" then
+	  	@amount = 1000
+	  elsif @amount == "1500" then
+	  	@amount = 1500
+	  else
+	  	@amount = nil
+	  	redirect_to "/charges/new"
+	  end
+
+	  
 
 	  customer = Stripe::Customer.create(
 	    :email => params[:stripeEmail],
