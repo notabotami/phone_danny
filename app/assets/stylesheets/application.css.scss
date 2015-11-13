@@ -5,6 +5,8 @@
  *= require bootstrap-theme.css
  */
 
+
+ 
 .accesspoint-topbar-content{
 	float: right;
 	margin-right: 10%;
@@ -55,7 +57,7 @@ p{
 
 
 .navbar{
-	height: 100px;
+	min-height: 100px;
 
 }
 
