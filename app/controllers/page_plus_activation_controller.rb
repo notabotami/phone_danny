@@ -117,8 +117,10 @@ class PagePlusActivationController < ApplicationController
 
         i = 1
 
+        plan_b = ""
+
         page.search('.rightcol .maintext').each do |t|
-          logger.tagged("phone_status_hash" + i.to_s){logger.debug(t.inner_text.strip)}
+          #logger.tagged("phone_status_hash" + i.to_s){logger.debug(t.inner_text.strip)}
           if(i == 2) then
             phone_status_hash[:phone_number] = t.inner_text.strip
           elsif(i == 4) then
@@ -132,15 +134,44 @@ class PagePlusActivationController < ApplicationController
           elsif(i == 12) then
             phone_status_hash[:expiration_date] = t.inner_text.strip
           elsif(i == 14) then
-            phone_status_hash[:feature] = t.inner_text
+            phone_status_hash[:feature] = t.inner_html.html_safe
           elsif(i == 16) then
-            phone_status_hash[:plan_balance_details] = t.inner_text.strip
+            
+            plan_b = t
+
+            #logger.tagged("plan_b"){logger.debug(pp plan_b)}
+            k = 1
+            plan_balance_details = ""
+            plan_b.search("div div").each do |x|
+              #logger.tagged("plan_b" + k.to_s){logger.debug(x.inner_html)}
+              if(k==2) then
+                plan_balance_details = plan_balance_details + x.inner_html + "<br>"
+              elsif(k==8) then
+                plan_balance_details = plan_balance_details + "minutes: " + x.inner_html + "<br>"
+              elsif(k==9) then
+                plan_balance_details = plan_balance_details + "texts: " + x.inner_html + "<br>"
+              elsif(k==10) then
+                plan_balance_details = plan_balance_details + "data: " + x.inner_html + "<br>"
+              end
+                
+
+              k=k+1
+            end
+            phone_status_hash[:plan_balance_details] = plan_balance_details
+          elsif(i==20) then
+            logger.tagged("plan details 20"){logger.debug(pp t.search("div div"))}
+            t.search("b").each do |x|
+              phone_status_hash[:plan_balance_details] = phone_status_hash[:plan_balance_details] + "<br>" + x.inner_text
+            end
+            phone_status_hash[:plan_balance_details] = phone_status_hash[:plan_balance_details].html_safe
           end
 
           i = i + 1
         end  
         
         logger.tagged("phone_status_hash"){logger.debug(phone_status_hash)}
+
+
 
         @phone_status_hash = phone_status_hash
         @html_body=phone_status_hash.to_s

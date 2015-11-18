@@ -12,6 +12,21 @@
             <span>Amount: $5.00</span>
           </label>
           <input type="hidden" name="amount" value="500">
+          <label>
+            <span>Phone</span>
+          </label>
+          <input type="text" name="phone">
+
+         <div class="radio">
+            <label><input type="radio" name="plans">Option 1</label>
+         </div>
+         <div class="radio">
+            <label><input type="radio" name="plans">Option 2</label>
+         </div>
+         <div class="radio disabled">
+            <label><input type="radio" name="plans">Option 3</label>
+         </div>
+
         </article>
 
         <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -34,6 +49,9 @@
             <span>Amount: $10.00</span>
           </label>
           <input type="hidden" name="amount" value="1000">
+          <label>
+            <span></span>
+          </label>
         </article>
 
         <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"

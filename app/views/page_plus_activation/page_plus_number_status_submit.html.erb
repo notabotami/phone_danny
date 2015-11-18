@@ -3,13 +3,20 @@
 	<h3>
 		MDN/Phone Status
 	</h3>
+	<br>
+	
+	<div>
+		<p>
+			If the table is empty, then the number you entered was not a valid PagePlus number
+		</p>
+	</div>
 	<table class="table table-striped table-condensed">
 
 		<% @phone_status_hash.each do |key, value| %>
 
 			<tr>
 				<td>
-					<%=key%>
+					<%=key.to_s.gsub("_"," ")%>
 				</td>
 				<td>
 					<%=value%>
