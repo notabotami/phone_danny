@@ -1,12 +1,16 @@
 
 <div class="container accesspoint-form">
-<form accept-charset="UTF-8" action="/contact_us_submit" method="post" role="form" class="form-horizontal">
+
+  <h3>PagePlus Port In Form</h3>
+  <br>
+
+<form accept-charset="UTF-8" action="/page_plus_port_in_submit" method="post" role="form" class="form-horizontal">
   <input type="hidden" name="authenticity_token" value=<%= form_authenticity_token %>>
 
 
   <div class="form-group">
     <div class="col-sm-12">
-      <label for="email">Email</label>
+      <label for="email">Email*</label>
       <br>
       <span class=<%="accesspoint-warning" + if !@email_warning then " hidden" else "" end%>>
           
@@ -18,10 +22,24 @@
     </div>
   </div>
 
+  <div class="form-group">
+    <div class="col-sm-12">
+      <label for="email-confirmation">Confirm Email*</label>
+      <br>
+      <span class=<%="accesspoint-warning" + if !@email_warning then " hidden" else "" end%>>
+          
+      </span>
+      <input type="email" name='email_confirmation' class="form-control" id="email-confirmation">
+      <span class="accesspoint-warning">
+          This is also required
+      </span>
+    </div>
+  </div>
+
     <div class="form-group">
     <div class="col-sm-12">
 
-      <label>Contact Number</label>
+      <label>Contact Number*</label>
       <input type="text" name="contact_number" class="form-control">
       <span class="accesspoint-warning">
         <br>
@@ -36,7 +54,7 @@
     <div class="form-group">
     <div class="col-sm-12">
 
-      <label>Phone Number to Port</label>
+      <label>Phone Number to Port*</label>
       <input type="text" name="phone_number" class="form-control">
       <span class="accesspoint-warning">
         <br>
@@ -50,7 +68,7 @@
 
   <div class="form-group">
     <div class="col-sm-12">
-      <label for="name">Is your phone a 3G or 4G LTE device?</label><br>
+      <label for="name">Is your phone a 3G or 4G LTE device?*</label><br>
 
     <select class="form-control" name='phone_type' id="phone-type">
 
@@ -69,8 +87,23 @@
   <div class="form-group accesspoint-4g">
     <div class="col-sm-12">
 
-      <label>Page Plus 4G LTE "SIM ICCID #"</label>
+      <label>IMEI Number*</label>
       <input type="text" name="imei_number" class="form-control">
+      <span class="accesspoint-warning">
+        <br>
+        Your ESN or MEID should start with one of the following:<br>
+        ????<br>
+        ????<br>
+        Will be labeled: ESN, MEID, DEC, HEX, MEID HEX, ESN HEX, or MEID DEC
+      </span>
+    </div>
+  </div>
+
+  <div class="form-group accesspoint-4g">
+    <div class="col-sm-12">
+
+      <label>Page Plus 4G LTE "SIM ICCID Number*</label>
+      <input type="text" name="iccid_number" class="form-control">
       <span class="accesspoint-warning">
         <br>
         Your IMEI should start with one of the following:<br>
@@ -82,10 +115,12 @@
   </div>
 
 
-  <div class="form-group">
+
+
+  <div class="form-group accesspoint-3g">
     <div class="col-sm-12">
 
-      <label>ESN / MEID / IMEI</label>
+      <label>ESN or MEID Number*</label>
       <input type="text" name="esn_number" class="form-control">
       <span class="accesspoint-warning">
         <br>
@@ -100,119 +135,79 @@
   <div class="form-group">
     <div class="col-sm-12">
 
-      <label>Confirm ESN / MEID / IMEI</label>
-      <input type="text" name="esn_number" class="form-control">
-      <span class="accesspoint-warning">
-        <br>
-        Your ESN or MEID should start with one of the following:<br>
-        ????<br>
-        ????<br>
-        Will be labeled: ESN, MEID, DEC, HEX, MEID HEX, ESN HEX, or MEID DEC
-      </span>
-    </div>
-  </div>
-
-
-
-
-
-  <div class="form-group">
-    <div class="col-sm-12">
-
-      <label>Current Carrier</label>
-      <input type="text" name="zip_code" class="form-control">
+      <label>Current Carrier*</label>
+      <input type="text" name="current_carrier" class="form-control">
     </div>
   </div>
 
   <div class="form-group">
     <div class="col-sm-12">
 
-      <label>Account Number</label>
-      <input type="text" name="zip_code" class="form-control">
+      <label>Account Number*</label>
+      <input type="text" name="account_number" class="form-control">
     </div>
   </div>
 
   <div class="form-group">
     <div class="col-sm-12">
 
-      <label>Account Passcode</label>
-      <input type="text" name="zip_code" class="form-control">
+      <label>Account Passcode*</label>
+      <input type="text" name="account_passcode" class="form-control">
     </div>
   </div>
 
     <div class="form-group">
     <div class="col-sm-12">
 
-      <label>Account Holder First Name</label>
-      <input type="text" name="zip_code" class="form-control">
+      <label>Account Holder First Name*</label>
+      <input type="text" name="first_name" class="form-control">
     </div>
   </div>
 
     <div class="form-group">
     <div class="col-sm-12">
 
-      <label>Account Holder Last Name</label>
-      <input type="text" name="zip_code" class="form-control">
+      <label>Account Holder Last Name*</label>
+      <input type="text" name="last_name" class="form-control">
     </div>
   </div>
 
   <div class="form-group">
     <div class="col-sm-12">
 
-      <label>Billing Address</label>
-      <input type="text" name="zip_code" class="form-control">
+      <label>Billing Address*</label>
+      <input type="text" name="billing_address" class="form-control">
     </div>
   </div>
 
     <div class="form-group">
     <div class="col-sm-12">
 
-      <label>Billing City</label>
-      <input type="text" name="zip_code" class="form-control">
+      <label>Billing City*</label>
+      <input type="text" name="billing_city" class="form-control">
     </div>
   </div>
 
     <div class="form-group">
     <div class="col-sm-12">
 
-      <label>Billing State</label>
-      <input type="text" name="zip_code" class="form-control">
+      <label>Billing State*</label>
+      <input type="text" name="billing_state" class="form-control">
     </div>
   </div>
 
     <div class="form-group">
     <div class="col-sm-12">
 
-      <label>Billing Zip Code</label>
+      <label>Billing Zip Code*</label>
       <input type="text" name="zip_code" class="form-control">
     </div>
   </div>
 
   <div class="form-group">
     <div class="col-sm-12">
-    <label for="sel1">How do you want to pay for your first month of service?</label>
-    <select class="form-control" name='contact_option' id="payment-type">
-
-      <option value="1">I have a Page Plus Refill PIN number</option>
-      <option value="2">Pay with Credit / Debit Card</option>
-      <option value="3">Pay with PayPal</option>
-
-    </select>
-    </div>
-  </div>
-
-  <div class="form-group" id="refill-pin-input">
-    <div class="col-sm-12">
-
-      <label>Page Plus Refill PIN Number</label>
-      <input type="text" name="zip_code" class="form-control">
-    </div>
-  </div>
-
-  <div class="form-group" id="plan-input">
-    <div class="col-sm-12">
-    <label for="sel1">Select your Page Plus Monthly Service Plan</label>
-    <select class="form-control" name='contact_option' id="sel1">
+    <label for="sel1">Select your Page Plus Monthly Service Plan*</label>
+    <select class="form-control" name='payment_plan' id="sel1">
 
       <option value="1">$12.00 - 250 mins, 250 text, 10 mb data</option>
       <option value="2">$29.95 - 1500 mins, UNL text, 1 GB data</option>
@@ -224,12 +219,39 @@
     </div>
   </div>
 
+  <hr>
+<h4>
+  Credit/Debit Card Information
+</h4>
+  <div class="form-row form-group">
+    <label>
+      <span>Card Number*</span>
+      <input type="text" size="20" data-stripe="number" class=""/>
+    </label>
+  </div>
+
+  <div class="form-row form-group">
+    <label>
+      <span>CVC*</span>
+      <input type="text" size="4" data-stripe="cvc" class=""/>
+    </label>
+  </div>
+
+  <div class="form-row form-group">
+    <label>
+      <span>Expiration (MM/YYYY)*</span>
+      <input type="text" size="2" data-stripe="exp-month" class=""/>
+    </label>
+    <span> / </span>
+    <input type="text" size="4" data-stripe="exp-year" class=""/>
+  </div>
 
   <div class="checkbox form-group">
     <div class="col-sm-12">
       <button type="submit" class="btn btn-default">Submit</button>
     </div>
   </div>
+
 </form>
 <br>
 

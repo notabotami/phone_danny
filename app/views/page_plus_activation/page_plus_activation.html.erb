@@ -1,17 +1,22 @@
 
 <div class="container accesspoint-form">
+  <h3>PagePlus Activation</h3>
+  <br>
 <form accept-charset="UTF-8" action="/page_plus_activation_submit" method="post" role="form" class="form-horizontal">
   <input type="hidden" name="authenticity_token" value=<%= form_authenticity_token %>>
 
   <div class="form-group">
     <div class='col-sm-6'>
-      <label for="name">First Name</label>
+      <label for="name">First Name*</label>
       <br>
       <input type="text" name='first_name' class="form-control">
+            <span class="accesspoint-warning">
+          This is required
+      </span>
     </div>
 
     <div class='col-sm-6'>
-      <label for="name">Last Name</label>
+      <label for="name">Last Name*</label>
       <br>
 
       <input type="text" name='last_name' class="form-control">
@@ -25,21 +30,25 @@
 
   <div class="form-group">
     <div class="col-sm-12">
-      <label for="email">Email</label>
+      <label for="email">Email*</label>
       <br>
-      <span class=<%="accesspoint-warning" + if !@email_warning then " hidden" else "" end%>>
+      <span class=<%="accesspoint-warning " + if !@email_warning then " hidden" else "" end%>>
           
       </span>
       <input type="email" name='email' class="form-control" id="email">
       <span class="accesspoint-warning">
-          This is also required
+          This is also required<br>
       </span>
+
+      <label for="email-confirmation">Confirm Email*</label>
+      <br>
+      <input type="email" name='email_confirmation' class="form-control" id="email-confirmation">
     </div>
   </div>
 
     <div class="form-group">
     <div class="col-sm-12">
-      <label for="name">What kind of phone are you activating?</label><br>
+      <label for="phone-type">What kind of phone are you activating?*</label><br>
 
     <select class="form-control" name='phone_type' id="phone-type">
 
@@ -47,7 +56,7 @@
       <option value="2">4G LTE Phone</option>
     </select>
 
-      <span class="accesspoint-warning">
+      <span class="hidden">
           4G phones REQUIRE a Page Plus 4G LTE SIM card to activate<br>
           Order one <span class='accesspoint-emphasis'>HERE</span> if you don't already have one<br>
           If you already have one, enter it in the "Page Plus Cellular SIM CARD ID" box below
@@ -58,7 +67,7 @@
   <div class="form-group accesspoint-3g">
     <div class="col-sm-12">
 
-      <label>Enter your phone's ESN or MEID</label>
+      <label>Enter your phone's ESN or MEID*</label>
       <input type="text" name="esn_number" class="form-control">
       <span class="accesspoint-warning">
         <br>
@@ -73,7 +82,7 @@
   <div class="form-group accesspoint-4g">
     <div class="col-sm-12">
 
-      <label>Enter your 4G Phone's IMEI Number (15-digits)</label>
+      <label>Enter your 4G Phone's IMEI Number (15-digits)*</label>
       <input type="text" name="imei_number" class="form-control">
       <span class="accesspoint-warning">
         <br>
@@ -88,7 +97,7 @@
   <div class="form-group accesspoint-4g">
     <div class="col-sm-12">
 
-      <label>Page Plus Cellular SIM Card ID (ICCID Number)</label>
+      <label>Page Plus Cellular SIM Card ID (ICCID Number)*</label>
       <input type="text" name="iccid_number" class="form-control">
     </div>
   </div>
@@ -97,14 +106,14 @@
   <div class="form-group">
     <div class="col-sm-12">
 
-      <label>5-digit Zip Code</label>
-      <input type="text" name="zip_code" class="form-control">
+      <label>5-digit Zip Code*</label>
+      <input type="text" size="5" name="zip_code" class="form-control">
     </div>
   </div>
 
   <div class="form-group">
     <div class="col-sm-12">
-    <label for="sel1">Select your Page Plus Monthly Service Plan</label>
+    <label for="sel1">Select your Page Plus Monthly Service Plan*</label>
     <select class="form-control" name='payment_plan'>
 
       <option value="1">$12.00 - 250 mins, 250 text, 10 mb data</option>
@@ -117,6 +126,32 @@
     </div>
   </div>
 
+<hr>
+<h4>
+  Credit/Debit Card Information
+</h4>
+  <div class="form-row form-group">
+    <label>
+      <span>Card Number</span>
+      <input type="text" size="20" data-stripe="number" class=""/>
+    </label>
+  </div>
+
+  <div class="form-row form-group">
+    <label>
+      <span>CVC</span>
+      <input type="text" size="4" data-stripe="cvc" class=""/>
+    </label>
+  </div>
+
+  <div class="form-row form-group">
+    <label>
+      <span>Expiration (MM/YYYY)</span>
+      <input type="text" size="2" data-stripe="exp-month" class=""/>
+    </label>
+    <span> / </span>
+    <input type="text" size="4" data-stripe="exp-year" class=""/>
+  </div>
 
   <div class="checkbox form-group">
     <div class="col-sm-12">

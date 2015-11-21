@@ -48,11 +48,14 @@ jQuery(document).on('page:change', function() {
     display3gOr4g();
     displayPaymentInput();
 
+    /*
+    //display extra inormation within accesspoint-warning when focused
 	jQuery( "input" ).focus(function() {
 		$(".accesspoint-warning").css("display", "none");
   		$( this ).next( "span" ).css("display","inline");
   		console.log("focus");
 	});
+*/
 
 	jQuery("#phone-type").change(function(){
 
@@ -60,10 +63,12 @@ jQuery(document).on('page:change', function() {
 
 	});
 
+/**
 	jQuery("#payment-type").change(function(){
 
 		displayPaymentInput();
 	});
+**/
 
 
 $.ajax({

@@ -14,22 +14,30 @@ Rails.application.routes.draw do
   get '/:page_plus_activation_alt', to: 'page_plus_activation#page_plus_activation', constraints: {page_plus_activation_alt: /page_plus_activation_[a-z_]+_[a-z_]+/}
   get '/page_plus_activation/:state/:city', to: 'page_plus_activation#page_plus_activation'
 
+  post '/page_plus_activation_submit', to:'page_plus_activation#page_plus_activation_submit'
+
   get '/page_plus_port_in', to: 'page_plus_activation#page_plus_port_in'
   get '/:page_plus_port_in_alt', to: 'page_plus_activation#page_plus_port_in', constraints: {page_plus_port_in_alt: /page_plus_port_in_[a-z_]+_[a-z_]+/}
   get '/page_plus_port_in/:state/:city', to: 'page_plus_activation#page_plus_port_in'
+
+  post '/page_plus_port_in_submit', to: 'page_plus_activation#page_plus_port_in_submit'
 
   get '/locate_state', to: 'locate#locate_state'
   get '/locate_city/:state/:page_number', to: 'locate#locate_city', constraints: {page_number: /[1-9][0-9]*/}
 
   get '/photo_gallery', to: 'photo_gallery#photo_gallery'
   
-  post '/page_plus_activation_submit', to:'page_plus_activation#page_plus_activation_submit'
   
   get '/page_plus_number_status', to: 'page_plus_activation#page_plus_number_status'
   get '/:page_plus_number_status_alt', to: 'page_plus_activation#page_plus_number_status', constraints: {page_plus_number_status_alt: /page_plus_number_status_[a-z_]+_[a-z_]+/}
 
   post '/page_plus_number_status_submit', to: 'page_plus_activation#page_plus_number_status_submit'
   post '/:page_plus_number_status_submit_alt', to: 'page_plus_activation#page_plus_number_status_submit', constraints: {page_plus_number_status_submit_alt: /page_plus_number_status_submit_[a-z_]+_[a-z_]+/}
+
+  get '/page_plus_refill', to: 'page_plus_activation#page_plus_refill'
+  get '/:page_plus__refill_alt', to: 'page_plus_activation#page_plus_refill', constraints: {page_plus_refill_alt: /page_plus_refill_[a-z_]+_[a-z_]+/}
+
+  post '/page_plus_refill_submit', to: 'page_plus_activation#page_plus_refill_submit'
 
   get '/charges/new' , to: 'charges#new'
   post '/charges/create', to: 'charges#create'
