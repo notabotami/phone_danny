@@ -1,7 +1,9 @@
 
 <div class="container accesspoint-form">
+  
   <h3>PagePlus Activation</h3>
   <br>
+
 <form accept-charset="UTF-8" action="/page_plus_activation_submit" method="post" role="form" class="form-horizontal">
   <input type="hidden" name="authenticity_token" value=<%= form_authenticity_token %>>
 
@@ -9,7 +11,7 @@
     <div class='col-sm-6'>
       <label for="name">First Name*</label>
       <br>
-      <input type="text" name='first_name' class="form-control">
+      <input type="text" name='first_name' class="form-control" value="<%=if @params and @params[:first_name] then @params[:first_name] end%>">
             <span class="accesspoint-warning">
           This is required
       </span>
@@ -19,7 +21,7 @@
       <label for="name">Last Name*</label>
       <br>
 
-      <input type="text" name='last_name' class="form-control">
+      <input type="text" name='last_name' class="form-control" value="<%=if @params and @params[:last_name] then @params[:last_name] end%>">
 
       <span class="accesspoint-warning">
           This is required
@@ -35,14 +37,14 @@
       <span class=<%="accesspoint-warning " + if !@email_warning then " hidden" else "" end%>>
           
       </span>
-      <input type="email" name='email' class="form-control" id="email">
+      <input type="email" name='email' class="form-control" id="email" value="<%=if @params and @params[:email] then @params[:email] end%>">
       <span class="accesspoint-warning">
           This is also required<br>
       </span>
 
       <label for="email-confirmation">Confirm Email*</label>
       <br>
-      <input type="email" name='email_confirmation' class="form-control" id="email-confirmation">
+      <input type="email" name='email_confirmation' class="form-control" id="email-confirmation" value="<%=if @params and @params[:email_confirmation] then @params[:email_confirmation] end%>">
     </div>
   </div>
 
@@ -68,7 +70,7 @@
     <div class="col-sm-12">
 
       <label>Enter your phone's ESN or MEID*</label>
-      <input type="text" name="esn_number" class="form-control">
+      <input type="text" name="esn_number" class="form-control" value="<%=if @params and @params[:esn_number] then @params[:esn_number] end%>">
       <span class="accesspoint-warning">
         <br>
         Your ESN or MEID should start with one of the following:<br>
@@ -83,7 +85,7 @@
     <div class="col-sm-12">
 
       <label>Enter your 4G Phone's IMEI Number (15-digits)*</label>
-      <input type="text" name="imei_number" class="form-control">
+      <input type="text" name="imei_number" class="form-control" value="<%=if @params and @params[:imei_number] then @params[:imei_number] end%>">
       <span class="accesspoint-warning">
         <br>
         Your IMEI should start with one of the following:<br>
@@ -98,7 +100,7 @@
     <div class="col-sm-12">
 
       <label>Page Plus Cellular SIM Card ID (ICCID Number)*</label>
-      <input type="text" name="iccid_number" class="form-control">
+      <input type="text" name="iccid_number" class="form-control" value="<%=if @params and @params[:iccid_number] then @params[:iccid_number] end%>">
     </div>
   </div>
 
@@ -107,7 +109,7 @@
     <div class="col-sm-12">
 
       <label>5-digit Zip Code*</label>
-      <input type="text" size="5" name="zip_code" class="form-control">
+      <input type="text" size="5" name="zip_code" class="form-control" value="<%=if @params and @params[:zip_code] then  @params[:zip_code] end%>">
     </div>
   </div>
 
@@ -126,38 +128,10 @@
     </div>
   </div>
 
-<hr>
-<h4>
-  Credit/Debit Card Information
-</h4>
-  <div class="form-row form-group">
-    <label>
-      <span>Card Number</span>
-      <input type="text" size="20" data-stripe="number" class=""/>
-    </label>
-  </div>
-
-  <div class="form-row form-group">
-    <label>
-      <span>CVC</span>
-      <input type="text" size="4" data-stripe="cvc" class=""/>
-    </label>
-  </div>
-
-  <div class="form-row form-group">
-    <label>
-      <span>Expiration (MM/YYYY)</span>
-      <input type="text" size="2" data-stripe="exp-month" class=""/>
-    </label>
-    <span> / </span>
-    <input type="text" size="4" data-stripe="exp-year" class=""/>
-  </div>
-
-  <div class="checkbox form-group">
-    <div class="col-sm-12">
-      <button type="submit" class="btn btn-default">Submit</button>
-    </div>
-  </div>
+  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+          data-description="PagePlus Refill"
+          data-locale="auto"></script>
 </form>
 <br>
 

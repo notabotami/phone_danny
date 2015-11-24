@@ -13,14 +13,14 @@
       <span class=<%="accesspoint-warning " + if !@email_warning then " hidden" else "" end%>>
           
       </span>
-      <input type="email" name='email' class="form-control" id="email">
+      <input type="email" name='email' class="form-control" id="email" value="<%=if @params and @params[:email] then  @params[:email]  end%>">
       <span class="accesspoint-warning">
           This is also required<br>
       </span>
 
       <label for="email-confirmation">Confirm Email*</label>
       <br>
-      <input type="email" name='email_confirmation' class="form-control" id="email-confirmation">
+      <input type="email" name='email_confirmation' class="form-control" id="email-confirmation" value="<%=if @params and @params[:email_confirmation] then  @params[:email_confirmation] end%>">
     </div>
   </div>
 
@@ -28,7 +28,7 @@
     <div class="col-sm-12">
 
       <label>Phone*</label>
-      <input type="text" size="5" name="phone_number" class="form-control">
+      <input type="text" size="5" name="phone_number" class="form-control" value="<%=if @params and @params[:phone_number] then @params[:phone_number]  end%>">
     </div>
   </div>
 
@@ -47,38 +47,10 @@
     </div>
   </div>
 
-<hr>
-<h4>
-  Credit/Debit Card Information
-</h4>
-  <div class="form-row form-group">
-    <label>
-      <span>Card Number*</span>
-      <input type="text" size="20" data-stripe="number" class=""/>
-    </label>
-  </div>
-
-  <div class="form-row form-group">
-    <label>
-      <span>CVC*</span>
-      <input type="text" size="4" data-stripe="cvc" class=""/>
-    </label>
-  </div>
-
-  <div class="form-row form-group">
-    <label>
-      <span>Expiration (MM/YYYY)*</span>
-      <input type="text" size="2" data-stripe="exp-month" class=""/>
-    </label>
-    <span> / </span>
-    <input type="text" size="4" data-stripe="exp-year" class=""/>
-  </div>
-
-  <div class="checkbox form-group">
-    <div class="col-sm-12">
-      <button type="submit" class="btn btn-default">Submit</button>
-    </div>
-  </div>
+  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+          data-description="PagePlus Refill"
+          data-locale="auto"></script>
 </form>
 <br>
 

@@ -2,6 +2,7 @@ class PagePlusActivationController < ApplicationController
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
+  
 
   def page_plus_activation
 
@@ -58,38 +59,58 @@ class PagePlusActivationController < ApplicationController
     phone_type_hash = {"1" => "3g",
       "2" => "4g"}
 
+    @params={}
+
     #
     #validate data coming in and fill out error_message_hash if necessary
     if(first_name.blank? or last_name.blank?)
       error_message_hash[:name_missing] = "Please fill out your first and last name."
+    else
+      @params[:first_name] = first_name
+      @params[:last_name] = last_name
     end
 
     if(email.blank? or email_confirmation.blank? or (email != email_confirmation))
       error_message_hash[:email_missing] = "Please fill out and confirm your email.  Make sure you write the correct email."
+    else
+      @params[:email] = email
+      @params[:email_confirmation] = email_confirmation
     end
 
     if(phone_type.blank? or not (phone_type == "1" or phone_type == "2"))
       error_message_hash[:phone_type_missing] = "Please choose either 3g or 4g."
+    else
+      @params[:phone_type] = phone_type
     end
 
     if(esn_number.blank? and (phone_type == "1"))
       error_message_hash[:esn_number_missing] = "Please fill out the ESN information."
+    else
+      @params[:esn_number] = esn_number
     end
 
     if(imei_number.blank? and (phone_type == "2"))
       error_message_hash[:imei_number_missing] = "Please fill out your IMEI number"
+    else
+      @params[:imei_number] = imei_number
     end
 
     if(iccid_number.blank? and (phone_type == "2"))
       error_message_hash[:iccid_number_missing] = "Please fill out your ICCID number."
+    else
+      @params[:iccid_number] = iccid_number
     end
 
     if(zip_code.blank?)
       error_message_hash[:zip_code_missing] = "Please fill out your zip code."
+    else
+      @params[zip_code] = zip_code
     end
 
     if(payment_plan.blank? or (not ["1","2","3","4","5"].include?(payment_plan)))
       error_message_hash[:payment_plan_missing] = "Please choose a payment plan."
+    else
+      @params[:payment_plan] = payment_plan
     end
 
     @error_found = false
@@ -164,6 +185,7 @@ class PagePlusActivationController < ApplicationController
       "4" => 5500,
       "5" => 6995}
 
+    @params = {}
 
     #
     #validate data coming in and fill out error_message_hash if necessary
@@ -171,14 +193,23 @@ class PagePlusActivationController < ApplicationController
 
     if(email.blank? or email_confirmation.blank? or (email != email_confirmation))
       error_message_hash[:email_missing] = "Please fill out and confirm your email.  Make sure you write the correct email."
+    else
+      @params[:email] = email
+      @params[:email_confirmation] = email_confirmation
     end
+
+    
 
     if(phone_number.blank? or not (ApplicationHelper.phone_number?(phone_number)))
       error_message_hash[:phone_type_missing] = "Please gives us the phone number to refill."
+    else
+      @params[:phone_number] = phone_number
     end
 
     if(payment_plan.blank? or (not ["1","2","3","4","5"].include?(payment_plan)))
       error_message_hash[:payment_plan_missing] = "Please choose a payment plan."
+    else
+      @params[:payment_plan] = payment_plan
     end
 
     @error_found = false
@@ -275,71 +306,109 @@ class PagePlusActivationController < ApplicationController
     phone_type_hash = {"1" => "3g",
       "2" => "4g"}
 
+    @params = {}
+
     #
     #validate data coming in and fill out error_message_hash if necessary
     if(first_name.blank? or last_name.blank?)
       error_message_hash[:name_missing] = "Please fill out your first and last name."
+    else
+      @params[:first_name] = first_name
+      @params[:last_name] = last_name
     end
 
     if(email.blank? or email_confirmation.blank? or (email != email_confirmation))
       error_message_hash[:email_missing] = "Please fill out and confirm your email.  Make sure you write the correct email."
+    else
+      @params[:email] = email
+      @params[:email_confirmation] = email_confirmation
     end
 
     #TODO: is a contact number necessary?
-    #if(contact_number.blank?)
+    if(contact_number.blank? or not (ApplicationHelper.phone_number?(contact_number)))
+
+    else
+      @params[:contact_number] = contact_number
+    end
 
     if(phone_number.blank? or not (ApplicationHelper.phone_number?(phone_number)))
       error_message_hash[:phone_type_missing] = "Please gives us a valid phone number to port in."
+    else
+      @params[:phone_number] = phone_number
     end
 
     if(phone_type.blank? or not (phone_type == "1" or phone_type == "2"))
       error_message_hash[:phone_type_missing] = "Please choose either 3g or 4g."
+    else
+      @params[:phone_type] = phone_type
     end
 
     if(esn_number.blank? and (phone_type == "1"))
       error_message_hash[:esn_number_missing] = "Please fill out the ESN information."
+    else
+      @params[:esn_number] = esn_number
     end
 
     if(imei_number.blank? and (phone_type == "2"))
       error_message_hash[:imei_number_missing] = "Please fill out your IMEI number"
+    else
+      @params[:imei_number] = imei_number
     end
 
     if(iccid_number.blank? and (phone_type == "2"))
       error_message_hash[:iccid_number_missing] = "Please fill out your ICCID number."
+    else
+      @params[:iccid_number] = iccid_number
     end
      
      
     if(current_carrier.blank?)
       error_message_hash[:current_carrier_missing] = "Please fill out your current carrier e.g. 'Sprint', 'Verizon', etc."
+    else
+      @params[:current_carrier] = current_carrier
     end
 
     if(account_number.blank?)
       error_message_hash[:account_number_missing] = "Please fill out your account number.  Call your carrier to verify."
+    else
+      @params[:account_number] = account_number
     end
 
     if(account_passcode.blank?)
       error_message_hash[:account_passcode_missing] = "Please fill out your account passcode.  Call your carrier to verify."
+    else
+      @params[:account_passcode] = account_passcode
     end
 
     if(billing_address.blank?)
       error_message_hash[:account_address_missing] = "Please fill out your account's billing address.  Call your carrier to verify."
+    else
+      @params[:billing_address] = billing_address
     end
 
     if(billing_city.blank?)
       error_message_hash[:account_city_missing] = "Please fill out your account's billing city.  Call your carrier to verify."
+    else
+      @params[:billing_city] = billing_city
     end
 
     if(billing_state.blank?)
       error_message_hash[:account_state_missing] = "Please fill out your account's billing state.  Call your carrier to verify."
+    else
+      @params[:billing_state] = billing_state
     end
 
 
     if(zip_code.blank?)
       error_message_hash[:zip_code_missing] = "Please fill out your zip code."
+    else
+      @params[:zip_code] = zip_code
     end
 
     if(payment_plan.blank? or (not ["1","2","3","4","5"].include?(payment_plan)))
       error_message_hash[:payment_plan_missing] = "Please choose a payment plan."
+    else
+      @params[:payment_plan] = payment_plan
     end
 
     @error_found = false
@@ -352,7 +421,7 @@ class PagePlusActivationController < ApplicationController
       end
     end
 
-    logger.tagged("port in submit"){logger.debug(error_message_hash)}
+    logger.tagged("port in submit"){logger.debug(@params)}
     if(@error_found)
       flash[:danger] = @error_string.html_safe
       render 'page_plus_activation/page_plus_port_in'
@@ -369,24 +438,6 @@ class PagePlusActivationController < ApplicationController
       phone_type = phone_type_hash[phone_type]
       payment_plan = (payment_plan_hash[payment_plan]/100.0).to_s
 
-      first_name=params[:first_name]
-      last_name=params[:last_name]
-      email=params[:email]
-      email_confirmation=params[:email_confirmation]
-      contact_number=params[:contact_number]
-      phone_number=params[:phone_number]
-      phone_type=params[:phone_type]
-      esn_number=params[:esn_number]
-      imei_number=params[:imei_number]
-      iccid_number=params[:iccid_number]
-      current_carrier=params[:current_carrier]
-      account_number=params[:account_number]
-      account_passcode=params[:account_passcode]
-      billing_address=params[:billing_address]
-      billing_city=params[:billing_city]
-      billing_state=params[:billing_state]
-      zip_code=params[:zip_code]
-      payment_plan=params[:payment_plan]
 
       description="(PORT IN) | Name: " + first_name + " "+ last_name + ", " + 
       "Email: " + email + ", " + 
