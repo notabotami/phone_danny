@@ -16,37 +16,12 @@
 //= require turbolinks
 //= require_tree .
 
-function display3gOr4g(){
-		var value = $("#phone-type").children("option:selected").attr("value");
-		value = parseInt(value);
-		jQuery(".accesspoint-3g").css("display", "none");
-		jQuery(".accesspoint-4g").css("display", "none");
-		if(value == 1){
-			jQuery(".accesspoint-3g").css("display", "inline");
-		} else{
-			jQuery(".accesspoint-4g").css("display", "inline");
-		}
-}
 
-function displayPaymentInput(){
-	var value = $("#payment-type").children("option:selected").attr("value");
-	value = parseInt(value);
-	jQuery("#refill-pin-input").css("display","none");
-	jQuery("#plan-input").css("display","none");
-	if(value == 1){
-		jQuery("#refill-pin-input").css("display","inline");
 
-	}else{
-
-		jQuery("#plan-input").css("display","inline");
-	}
-}
 
 jQuery(document).on('page:change', function() {
 	//line needed to make dropdowns work
     $('.dropdown-toggle').dropdown();
-    display3gOr4g();
-    displayPaymentInput();
 
     /*
     //display extra inormation within accesspoint-warning when focused
@@ -57,11 +32,7 @@ jQuery(document).on('page:change', function() {
 	});
 */
 
-	jQuery("#phone-type").change(function(){
 
-		display3gOr4g();
-
-	});
 
 /**
 	jQuery("#payment-type").change(function(){
@@ -69,16 +40,6 @@ jQuery(document).on('page:change', function() {
 		displayPaymentInput();
 	});
 **/
-
-
-$.ajax({
-  dataType: 'jsonp',
-  data: '',
-  url: 'https://www.pagepluscellular.com/login/',
-  success: function (data) {
-  	
-  }
-});
 
 
 

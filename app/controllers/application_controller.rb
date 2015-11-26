@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   before_filter :setCityState
+  before_filter :setPhoneService
 
   def setCityState
 
@@ -16,6 +17,16 @@ class ApplicationController < ActionController::Base
       @located_city = true
     end
     @located_city = false
+  end
+
+  def setPhoneService
+
+    current_uri = request.env['PATH_INFO']
+    @phone_service = "PagePlus"
+    if current_uri.include? "selectel"
+      @phone_service = "Selectel"
+    end
+
   end
 
 end

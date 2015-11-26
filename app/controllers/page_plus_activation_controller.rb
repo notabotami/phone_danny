@@ -140,7 +140,7 @@ class PagePlusActivationController < ApplicationController
       phone_type = phone_type_hash[phone_type]
       payment_plan = (payment_plan_hash[payment_plan]/100.0).to_s
 
-      description="(ACTIVATION) | Name: " + first_name + " "+ last_name + ", " + "Email: " + email + ", " + "Phone Type: " + phone_type + ", " + "ESN Number: " + esn_number + ", " + "IMEI_number: " + imei_number + ", "+ "ICCID Number: " + iccid_number + ", " + "Zipcode: " + zip_code + ", " + "Payment Plan: " + payment_plan
+      description="(#{@phone_service} ACTIVATION) | Name: " + first_name + " "+ last_name + ", " + "Email: " + email + ", " + "Phone Type: " + phone_type + ", " + "ESN Number: " + esn_number + ", " + "IMEI_number: " + imei_number + ", "+ "ICCID Number: " + iccid_number + ", " + "Zipcode: " + zip_code + ", " + "Payment Plan: " + payment_plan
 
       logger.tagged("activation submit"){logger.debug(description)}
 
@@ -233,7 +233,7 @@ class PagePlusActivationController < ApplicationController
       
       payment_plan = (payment_plan_hash[payment_plan]/100.0).to_s
 
-      description="(REFILL/REPLENISH) | Email: " + email + ", " + "Phone Number: " + phone_number + ", "  + "Payment Plan: " + payment_plan
+      description="(#{@phone_service} REFILL/REPLENISH) | Email: " + email + ", " + "Phone Number: " + phone_number + ", "  + "Payment Plan: " + payment_plan
 
       logger.tagged("refill submit"){logger.debug(description)}
 
@@ -439,7 +439,7 @@ class PagePlusActivationController < ApplicationController
       payment_plan = (payment_plan_hash[payment_plan]/100.0).to_s
 
 
-      description="(PORT IN) | Name: " + first_name + " "+ last_name + ", " + 
+      description="(#{@phone_service} PORT IN) | Name: " + first_name + " "+ last_name + ", " + 
       "Email: " + email + ", " + 
       "Contact Number: " + contact_number + ", " +
       "Phone Number to Port: " + phone_number + ", " +
@@ -483,9 +483,11 @@ class PagePlusActivationController < ApplicationController
     respond_to do |format|
       format.html # renders home.html.erb
       format.js {} # renders home.js.erb
+      format.json {}
     end
 
   end
+
 
   def page_plus_number_status_submit
     #TODO: validate/normalize phone number (555) 555-5555 == 555-555-5555 == 5555555555
@@ -534,7 +536,12 @@ class PagePlusActivationController < ApplicationController
 
       if( not @valid_number) then
         flash[:warning] = "You did not enter a valid PagePlus number"
-        render 'page_plus_activation/page_plus_number_status'
+
+        respond_to do |format|
+          format.html {render 'page_plus_activation/page_plus_number_status'}
+          format.json {render json: {:errors => "I'm an error!"}, status: 422}
+        end
+
       else
 
         #logger.tagged("number status submit"){logger.debug(page.search('.rightcol .maintext').inner_text)}
