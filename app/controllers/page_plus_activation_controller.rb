@@ -58,6 +58,10 @@ class PagePlusActivationController < ApplicationController
 
     #price in cents
     if(@phone_service == "PagePlus")
+      billing_state = "N/A"
+      billing_city = "N/A"
+      billing_address = "N/A"
+
       payment_plan_hash = {"1" => 1200,
         "2" => 2995,
         "3" => 3995,
@@ -177,7 +181,27 @@ class PagePlusActivationController < ApplicationController
       end
 
       phone_type = phone_type_hash[phone_type]
-      payment_plan = (payment_plan_hash[payment_plan]/100.0).to_s
+
+      if(@phone_service == "PagePlus")
+
+        payment_plan_hash = {"1" => t("page_plus_activation.page_plus_plan_one"),
+          "2" => t("page_plus_activation.page_plus_plan_two"),
+          "3" => t("page_plus_activation.page_plus_plan_three"),
+          "4" => t("page_plus_activation.page_plus_plan_four"),
+          "5" => t("page_plus_activation.page_plus_plan_five")}
+      else
+        payment_plan_hash = {"a" => t("page_plus_activation.selectel_wireless_plan_one"),
+          "b" => t("page_plus_activation.selectel_wireless_plan_two"),
+          "c" => t("page_plus_activation.selectel_wireless_plan_three"),
+          "d" => t("page_plus_activation.selectel_wireless_plan_four"),
+          "e" => t("page_plus_activation.selectel_wireless_plan_five"),
+          "f" => t("page_plus_activation.selectel_wireless_plan_six"),
+          "g" => t("page_plus_activation.selectel_wireless_plan_seven"),
+          "h" => t("page_plus_activation.selectel_wireless_plan_eight")}
+
+      end
+
+      payment_plan = payment_plan_hash[payment_plan]
 
       description="(#{@phone_service} ACTIVATION) | Name: " + first_name + " "+ last_name + ", " + 
       "Email: " + email + ", " + 
@@ -301,7 +325,26 @@ class PagePlusActivationController < ApplicationController
     
 
       
-      payment_plan = (payment_plan_hash[payment_plan]/100.0).to_s
+      if(@phone_service == "PagePlus")
+
+        payment_plan_hash = {"1" => t("page_plus_activation.page_plus_plan_one"),
+          "2" => t("page_plus_activation.page_plus_plan_two"),
+          "3" => t("page_plus_activation.page_plus_plan_three"),
+          "4" => t("page_plus_activation.page_plus_plan_four"),
+          "5" => t("page_plus_activation.page_plus_plan_five")}
+      else
+        payment_plan_hash = {"a" => t("page_plus_activation.selectel_wireless_plan_one"),
+          "b" => t("page_plus_activation.selectel_wireless_plan_two"),
+          "c" => t("page_plus_activation.selectel_wireless_plan_three"),
+          "d" => t("page_plus_activation.selectel_wireless_plan_four"),
+          "e" => t("page_plus_activation.selectel_wireless_plan_five"),
+          "f" => t("page_plus_activation.selectel_wireless_plan_six"),
+          "g" => t("page_plus_activation.selectel_wireless_plan_seven"),
+          "h" => t("page_plus_activation.selectel_wireless_plan_eight")}
+
+      end
+
+      payment_plan = payment_plan_hash[payment_plan]
 
       description="(#{@phone_service} REFILL/REPLENISH) | Email: " + email + ", " + "Phone Number: " + phone_number + ", "  + "Payment Plan: " + payment_plan
 
@@ -527,7 +570,27 @@ class PagePlusActivationController < ApplicationController
       end
 
       phone_type = phone_type_hash[phone_type]
-      payment_plan = (payment_plan_hash[payment_plan]/100.0).to_s
+      
+      if(@phone_service == "PagePlus")
+
+        payment_plan_hash = {"1" => t("page_plus_activation.page_plus_plan_one"),
+          "2" => t("page_plus_activation.page_plus_plan_two"),
+          "3" => t("page_plus_activation.page_plus_plan_three"),
+          "4" => t("page_plus_activation.page_plus_plan_four"),
+          "5" => t("page_plus_activation.page_plus_plan_five")}
+      else
+        payment_plan_hash = {"a" => t("page_plus_activation.selectel_wireless_plan_one"),
+          "b" => t("page_plus_activation.selectel_wireless_plan_two"),
+          "c" => t("page_plus_activation.selectel_wireless_plan_three"),
+          "d" => t("page_plus_activation.selectel_wireless_plan_four"),
+          "e" => t("page_plus_activation.selectel_wireless_plan_five"),
+          "f" => t("page_plus_activation.selectel_wireless_plan_six"),
+          "g" => t("page_plus_activation.selectel_wireless_plan_seven"),
+          "h" => t("page_plus_activation.selectel_wireless_plan_eight")}
+
+      end
+
+      payment_plan = payment_plan_hash[payment_plan]
 
 
       description="(#{@phone_service} PORT IN) | Name: " + first_name + " "+ last_name + ", " + 

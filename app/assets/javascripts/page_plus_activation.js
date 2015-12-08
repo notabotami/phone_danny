@@ -25,7 +25,7 @@ function display3gOr4g(){
 		$(".3g-only").hide();
 		$(".4g-only").hide();
 		$('#selectel-payment-plan option:eq(3)').prop('selected', true)
-		
+
 		if(value == 1){
 			jQuery(".accesspoint-3g").css("display", "inline");
 			$(".3g-only").show();
@@ -42,9 +42,9 @@ function displayPagePlusOrSelectel(){
 	console.log(phone_service)
 	if(phone_service == ("PagePlus")){
 		$(".page-plus-only").show();
-		$(".selectel-only").hide();
+		$(".selectel-only").remove();
 	}else{
-		$(".page-plus-only").hide();
+		$(".page-plus-only").remove();
 		$(".selectel-only").show();
 	}
 }
