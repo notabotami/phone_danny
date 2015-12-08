@@ -10,31 +10,45 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="/assets/scenic_phone.jpg" alt="First slide">
+          <img class="first-slide visible-xs full-width" src="/assets/scenic_phone_mobile.jpg" alt="First slide">
+          <img class="first-slide visible-sm visible-md visible-lg" src="/assets/scenic_phone.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Phone Activations</h1>
+              <h2><%=t(".activations") %></h2>
 
-              <p><a class="btn btn-lg btn-primary" href=<%=ApplicationHelper.set_link("/contact",@state,@city)%> role="button">Find out more</a></p>
+                <div class="accesspoint-centered">
+                  <a class="btn btn-lg my-btn outline" href=<%=ApplicationHelper.set_link("/page_plus_activation",@state,@city)%> role="button">PagePlus</a>
+
+                  <a class="btn btn-lg my-btn outline" href=<%=ApplicationHelper.set_link("/selectel_activation",@state,@city)%> role="button">Selectel Wireless</a>
+                </div>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="/assets/scenic_phone.jpg" alt="Second slide">
+          <img class="second-slide visible-xs" src="/assets/scenic_phone_mobile.jpg" alt="Second slide">
+          <img class="second-slide visible-sm visible-md visible-lg" src="/assets/scenic_phone.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
+                <div class="accesspoint-centered full-width">
+                  <a class="btn my-btn outline" href=<%=ApplicationHelper.set_link("/page_plus_refill",@state,@city)%> role="button"><%= t(".pageplus_refills")%></a>
 
-              <p><a class="btn btn-lg btn-primary" href=<%=ApplicationHelper.set_link("/contact",@state,@city)%> role="button">Learn more</a></p>
+                  <a class="btn my-btn outline" href=<%=ApplicationHelper.set_link("/selectel_refill",@state,@city)%> role="button"><%= t(".selectel_refills")%></a>
+                </div>
+
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="/assets/scenic_phone.jpg" alt="Third slide">
+
+          <a href="/contact">
+            <img class="third-slide visible-xs" src="/assets/scenic_phone_mobile.jpg" alt="Third slide">
+          </a>
+          <a href="/contact">
+            <img class="third-slide visible-sm visible-md visible-lg" src="/assets/scenic_phone.jpg" alt="Third slide">
+          </a>
           <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p><a class="btn btn-lg btn-primary" href=<%=ApplicationHelper.set_link("/contact",@state,@city)%> role="button">Browse gallery</a></p>
+            <div class="carousel-caption full-width">
+              <h2><%= t("phone_computer_repair") %></h2>
             </div>
           </div>
         </div>
@@ -51,21 +65,18 @@
 
 <br>
 <br>
-<div>
-  <%= if @html_body then @html_body.html_safe end%>
-</div>
 
     <div class="container accesspoint-centered">
 
       <% if @located_city%>
       <br>
-      <h1>Welcome to <%= @city_formal + ", " + @state_formal %></h1>
+      <h1><%= t(".welcome",city: @city_formal,state: @state_formal) %></h1>
       <br>
       <br>
       <%end%>
 
       <h2>
-        Our Services 
+        <%=t(".services")%>
       </h2>
       <br>
       <br>
@@ -82,10 +93,10 @@
 
           <h4>
 
-            Phone Repair
+            <%=t(".phone_repair")%>
           </h4>
           <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut gravida lorem. Integer laoreet ex consequat, malesuada nisl sit amet, dictum nunc. Praesent imperdiet orci vitae ex luctus, vel mattis odio eleifend. 
+            <%=t(".phone_repair_blurb")%>
           </p>
         </div>
 
@@ -98,10 +109,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut gravida lor
 
 
           <h4>
-            Computer Repair
+            <%=t(".computer_repair")%>
           </h4>
           <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut gravida lorem. Integer laoreet ex consequat, malesuada nisl sit amet, dictum nunc. Praesent imperdiet orci vitae ex luctus, vel mattis odio eleifend. 
+            <%= t(".computer_repair_blurb")%>
           </p>
         </div>
 
@@ -113,10 +124,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut gravida lor
             </span>
 
           <h4>
-            Phone Activation
+            <%=t(".activations")%>
           </h4>
           <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut gravida lorem. Integer laoreet ex consequat, malesuada nisl sit amet, dictum nunc. Praesent imperdiet orci vitae ex luctus, vel mattis odio eleifend. 
+            <%=t(".activations_blurb_html",phone: t("phone"),page_plus_path: ApplicationHelper.set_link("/page_plus_activation",@state,@city), selectel_path: ApplicationHelper.set_link("selectel_activation",@state,@city))%>
           </p>
         </div>
 
@@ -129,10 +140,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut gravida lor
 
 
           <h4>
-            Phones and Accessories
+            <%=t(".phone_accessories")%>
           </h4>
           <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut gravida lorem. Integer laoreet ex consequat, malesuada nisl sit amet, dictum nunc. Praesent imperdiet orci vitae ex luctus, vel mattis odio eleifend. 
+            <%=t(".phone_accessories_blurb")%> 
           </p>
         </div>
 

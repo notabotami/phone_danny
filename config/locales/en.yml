@@ -20,4 +20,133 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  phone_computer_repair: Phone and Computer Repair
+  accesspoint: The Accesspoint
+  home_root: Home
+  contact: Contact
+  
+  page_plus_activation_menu: PagePlus Activation
+  page_plus_port_in_menu: PagePlus Port-In
+  page_plus_number_status_menu: PagePlus Phone Status
+  page_plus_refill_menu: PagePlus Refill
+  
+  selectel_activation_menu: Selectel Wireless Activation
+  selectel_port_in_menu: Selectel Port-In
+  selectel_refill_menu: Selectel Refill
+  
+  find_home_town: Find Home Town
+  alternate_language: Español
+  
+  street_address: 837 4th Ave S
+  city_state_address: Denison, IA
+  zipcode: 51442
+  
+  email: accesspointwireless@hotmail.com
+  phone: 712-267-0238
+  
+  word_for_email: Email
+  word_for_phone: Phone
+  
+  submit: Submit
+  
+  pay_with_card: Pay with Card
+  
+  home:
+    home:
+      activations: Phone Activations
+      pageplus_refills: PagePlus Refills
+      selectel_refills: Selectel Refills
+      welcome: "Welcome to %{city}, %{state}"
+      services: Our Services
+      phone_repair: Phone Repair
+      phone_repair_blurb: >
+        Phone not working?  
+        Come in so we can evaluate your phone's status.  
+        We'll do our best to figure out what's wrong with your phone and fix it.  
+        Phone beyond repair?  
+        You can buy a new phone at our store.
+      computer_repair: Computer Repair
+      computer_repair_blurb: >
+          We also fix computers.  
+          Bring in your computer to get an evaluation.  
+          Just need a part?  
+          We can help you find and order the part that works best for you.
+      activations_blurb_html: >
+        We can activate your phones with either PagePlus or Selectel.  
+        Call us at %{phone}, come into our store, or simply fill out the forms on our website.  
+        Go <a href="%{page_plus_path}">here</a> for PagePlus 
+        and <a href="%{selectel_path}">here</a> for Selectel.
+      phone_accessories: Phone and Accessories
+      phone_accessories_blurb: >
+        Come to our store to look at our selection of phones and accessories.  
+        We provide the newest selection of iPhones and Android phones.  
+        We also sell simpler models if you don't need a smart phone.
+  
+  locate:
+    locate_state:
+      change_state: Change State
+      
+  
+  page_plus_activation:
+    
+    first_name: First Name
+    last_name: Last Name
+    email_long: Email
+    email_confirmation: Confirm Email
+    zip_code: Zip Code
+    phone_number: Phone Number
+    
+    page_plus_plan: Choose your Page Plus Monthly Service Plan
+    page_plus_plan_one: $12.00 for one month - 250 mins, 250 text, 10 mb data
+    page_plus_plan_two: $29.95 for one month - 1500 mins, UNL text, 1 GB data
+    page_plus_plan_three: $39.95 for one month - UNL mins, UNL text, & UNL data (1.5 GB high speed)
+    page_plus_plan_four: $55.00 for one month - UNL mins UNL text, & UNL data (5 GB high speed)
+    page_plus_plan_five: $69.95 for one month - UNL mins, UNL text, & UNL data (7GB high speed)
+    
+    selectel_wireless_plan: Choose your Selectel Service Plan
+    selectel_wireless_plan_one: $15 per month - 300 mins, 300 text, 15 mb data (3g only)
+    selectel_wireless_plan_two: $20 per month - 500 mins, 500 text, 2.5 mb data (4g only)
+    selectel_wireless_plan_three: $30 per month - 1300 mins, 3000 text, 500 mb data (3g/4g)
+    selectel_wireless_plan_four: $40 per month - UNL mins, UNL text, 1 gb data (3g/4g)
+    selectel_wireless_plan_five: $55 per month - UNL mins, UNL text, 3 gb data (3g/4g)
+    selectel_wireless_plan_six: $70 per month - UNL mins, UNL text, 5 gb data (3g/4g)
+    selectel_wireless_plan_seven: $75 yearly - 2000 mins, 2000 text (3g only)
+    selectel_wireless_plan_eight: $100 yearly - 2000 mins, 2000 text (4g only)
+    
+    page_plus_activation:
+      service_activation: "%{service} Activation"
+      activation_question: What kind of phone are you activating?
+      esn_number: Enter your phone's ESN or MEID
+      imei_number: "Enter your 4G Phone's IMEI Number (15-digits)"
+      iccid_number: "Page Plus Cellular SIM Card ID (ICCID Number)"
+    
+    page_plus_number_status:
+      service_number_status:  "%{service} - Check Phone Number Status"
+    page_plus_number_status_submit:
+      phone_status: Phone Status
+      empty_table_message: >
+        If the table is empty, then the number you 
+        entered was not a valid PagePlus number
+    page_plus_refill:
+      service_refills: "%{service} Refills"
+    page_plus_port_in:
+      service_port_in: "%{service} Port In Form"
+      contact_number: Contact Number
+      phone_number_to_port: Phone Number to Port
+      phone_question: Is your phone a 3G or 4G LTE device?
+      imei_number: IMEI Number
+      iccid_number: Page Plus 4G LTE "SIM ICCID Number
+      esn_number: ESN or MEID Number
+      current_carrier: Current Carrier
+      account_number: Account Number
+      account_passcode: Account Passcode
+      account_first_name: Account Holder First Name
+      account_last_name: Account Holder Last Name
+      billing_address: Billing Address
+      billing_city: Billing City
+      billing_state: Billing State
+      billing_zip_code: Billing Zip Code
+    
+      
+      
+  

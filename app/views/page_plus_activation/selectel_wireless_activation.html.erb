@@ -6,7 +6,6 @@
 
 <form accept-charset="UTF-8" action="/page_plus_activation_submit" method="post" role="form" class="form-horizontal">
   <input type="hidden" name="authenticity_token" value=<%= form_authenticity_token %>>
-  <input id="phone_service" type="hidden" name="phone_service" value="<%=@phone_service%>">
 
   <div class="form-group">
     <div class='col-sm-6'>
@@ -56,14 +55,9 @@
     <select class="form-control" name='phone_type' id="phone-type">
 
       <option value="1">3G</option>
-      <option value="2">4G LTE</option>
+      <option value="2">4G</option>
     </select>
 
-      <span class="hidden">
-          4G phones REQUIRE a Page Plus 4G LTE SIM card to activate<br>
-          Order one <span class='accesspoint-emphasis'>HERE</span> if you don't already have one<br>
-          If you already have one, enter it in the "Page Plus Cellular SIM CARD ID" box below
-      </span>
     </div>
   </div>
 
@@ -105,7 +99,7 @@
     </div>
   </div>
 
-  <div class="form-group selectel-only">
+  <div class="form-group">
     <div class="col-sm-12">
 
       <label><%=t(".billing_address")%>*</label>
@@ -113,7 +107,7 @@
     </div>
   </div>
 
-    <div class="form-group selectel-only">
+    <div class="form-group">
     <div class="col-sm-12">
 
       <label><%=t(".billing_city")%>*</label>
@@ -121,7 +115,7 @@
     </div>
   </div>
 
-    <div class="form-group selectel-only">
+    <div class="form-group">
     <div class="col-sm-12">
 
       <label><%=t(".billing_state")%>*</label>
@@ -129,8 +123,7 @@
     </div>
   </div>
 
-
-  <div class="form-group selectel-only">
+  <div class="form-group">
     <div class="col-sm-12">
 
       <label><%=t("page_plus_activation.zip_code")%>*</label>
@@ -138,34 +131,19 @@
     </div>
   </div>
 
-  <div class="form-group page-plus-only">
+  <div class="form-group">
     <div class="col-sm-12">
-    <label for="sel1"><%=t("page_plus_activation.page_plus_plan")%>*</label>
+    <label for="sel1"><%=t("selectel_wireless_activation.selectel_wireless_plan")%>*</label>
     <select class="form-control" name='payment_plan'>
 
-      <option value="1"><%=t("page_plus_activation.page_plus_plan_one")%></option>
-      <option value="2"><%=t("page_plus_activation.page_plus_plan_two")%></option>
-      <option value="3"><%=t("page_plus_activation.page_plus_plan_three")%></option>
-      <option value="4"><%=t("page_plus_activation.page_plus_plan_four")%></option>
-      <option value="5"><%=t("page_plus_activation.page_plus_plan_five")%></option>
-
-    </select>
-    </div>
-  </div>
-
-  <div class="form-group selectel-only">
-    <div class="col-sm-12">
-    <label for="sel1"><%=t("page_plus_activation.selectel_wireless_plan")%>*</label>
-    <select class="form-control" name='payment_plan' id="selectel-payment-plan">
-
-      <option class="3g-only" value="a"><%=t("page_plus_activation.selectel_wireless_plan_one")%></option>
-      <option class="4g-only" value="b"><%=t("page_plus_activation.selectel_wireless_plan_two")%></option>
-      <option value="c"><%=t("page_plus_activation.selectel_wireless_plan_three")%></option>
-      <option value="d"><%=t("page_plus_activation.selectel_wireless_plan_four")%></option>
-      <option value="e"><%=t("page_plus_activation.selectel_wireless_plan_five")%></option>
-      <option value="f"><%=t("page_plus_activation.selectel_wireless_plan_six")%></option>
-      <option class="3g-only" value="g"><%=t("page_plus_activation.selectel_wireless_plan_seven")%></option>
-      <option class="4g-only" value="h"><%=t("page_plus_activation.selectel_wireless_plan_eight")%></option>
+      <option value="1"><%=t("selectel_wireless_activation.selectel_wireless_plan_one")%></option>
+      <option value="2"><%=t("selectel_wireless_activation.selectel_wireless_plan_two")%></option>
+      <option value="3"><%=t("selectel_wireless_activation.selectel_wireless_plan_three")%></option>
+      <option value="4"><%=t("selectel_wireless_activation.selectel_wireless_plan_four")%></option>
+      <option value="5"><%=t("selectel_wireless_activation.selectel_wireless_plan_five")%></option>
+      <option value="6"><%=t("selectel_wireless_activation.selectel_wireless_plan_six")%></option>
+      <option value="7"><%=t("selectel_wireless_activation.selectel_wireless_plan_seven")%></option>
+      <option value="8"><%=t("selectel_wireless_activation.selectel_wireless_plan_eight")%></option>
 
     </select>
     </div>
@@ -173,7 +151,7 @@
 
   <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
           data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
-          data-description="<%=@phone_service%> Activation"
+          data-description="PagePlus Refill"
           data-locale="auto"></script>
 </form>
 <br>

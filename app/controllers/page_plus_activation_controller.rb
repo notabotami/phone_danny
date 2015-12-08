@@ -35,8 +35,12 @@ class PagePlusActivationController < ApplicationController
   	esn_number=params[:esn_number]
   	imei_number=params[:imei_number]
   	iccid_number=params[:iccid_number]
+    billing_address=params[:billing_address]
+    billing_city=params[:billing_city]
+    billing_state=params[:billing_state]
   	zip_code=params[:zip_code]
   	payment_plan=params[:payment_plan]
+    @phone_service=params[:phone_service]
 
 
     #assume no errors to begin with
@@ -46,15 +50,30 @@ class PagePlusActivationController < ApplicationController
       :esn_number_missing => nil,
       :imei_number_missing => nil,
       :iccid_number_missing => nil,
+      :billing_address_missing => nil,
+      :billing_city_missing => nil,
+      :billing_state_missing => nil,
       :zip_code_missing => nil,
       :payment_plan_missing => nil}
 
     #price in cents
-    payment_plan_hash = {"1" => 1200,
-      "2" => 2995,
-      "3" => 3995,
-      "4" => 5500,
-      "5" => 6995}
+    if(@phone_service == "PagePlus")
+      payment_plan_hash = {"1" => 1200,
+        "2" => 2995,
+        "3" => 3995,
+        "4" => 5500,
+        "5" => 6995}
+    else
+      payment_plan_hash = {"a" => 1500,
+        "b" => 2000,
+        "c" => 3000,
+        "d" => 4000,
+        "e" => 5500,
+        "f" => 7000,
+        "g" => 7500,
+        "h" => 10000}
+
+    end
 
     phone_type_hash = {"1" => "3g",
       "2" => "4g"}
@@ -101,13 +120,33 @@ class PagePlusActivationController < ApplicationController
       @params[:iccid_number] = iccid_number
     end
 
+
+    if(billing_address.blank? and @phone_service == "Selectel")
+      error_message_hash[:account_address_missing] = "Please fill out your account's billing address.  Call your carrier to verify."
+    else
+      @params[:billing_address] = billing_address
+    end
+
+    if(billing_city.blank? and @phone_service == "Selectel")
+      error_message_hash[:account_city_missing] = "Please fill out your account's billing city.  Call your carrier to verify."
+    else
+      @params[:billing_city] = billing_city
+    end
+
+    if(billing_state.blank? and @phone_service == "Selectel")
+      error_message_hash[:account_state_missing] = "Please fill out your account's billing state.  Call your carrier to verify."
+    else
+      @params[:billing_state] = billing_state
+    end
+
+
     if(zip_code.blank?)
       error_message_hash[:zip_code_missing] = "Please fill out your zip code."
     else
       @params[zip_code] = zip_code
     end
 
-    if(payment_plan.blank? or (not ["1","2","3","4","5"].include?(payment_plan)))
+    if(payment_plan.blank?)
       error_message_hash[:payment_plan_missing] = "Please choose a payment plan."
     else
       @params[:payment_plan] = payment_plan
@@ -140,7 +179,17 @@ class PagePlusActivationController < ApplicationController
       phone_type = phone_type_hash[phone_type]
       payment_plan = (payment_plan_hash[payment_plan]/100.0).to_s
 
-      description="(#{@phone_service} ACTIVATION) | Name: " + first_name + " "+ last_name + ", " + "Email: " + email + ", " + "Phone Type: " + phone_type + ", " + "ESN Number: " + esn_number + ", " + "IMEI_number: " + imei_number + ", "+ "ICCID Number: " + iccid_number + ", " + "Zipcode: " + zip_code + ", " + "Payment Plan: " + payment_plan
+      description="(#{@phone_service} ACTIVATION) | Name: " + first_name + " "+ last_name + ", " + 
+      "Email: " + email + ", " + 
+      "Phone Type: " + phone_type + ", " + 
+      "ESN Number: " + esn_number + ", " + 
+      "IMEI_number: " + imei_number + ", "+ 
+      "ICCID Number: " + iccid_number + ", " + 
+      "Billing Address: " + billing_address + ", " + 
+      "Billing City: " + billing_city + ", " + 
+      "Billing State: " + billing_state + ", " + 
+      "Zipcode: " + zip_code + ", " + 
+      "Payment Plan: " + payment_plan
 
       logger.tagged("activation submit"){logger.debug(description)}
 
@@ -154,14 +203,23 @@ class PagePlusActivationController < ApplicationController
       
 
       flash[:success] = "Your information has been submitted.  Your credit card won't be charged until we can submit your information."
-    	redirect_to("/page_plus_activation")
+    	
+      if(@phone_service == "PagePlus")
+        redirect_to("/page_plus_activation")
+      else
+        redirect_to("/selectel_activation")
+      end
 
     end
 
 
   rescue Stripe::CardError => e
     flash[:error] = e.message
-    redirect_to("/page_plus_activation")
+    if(@phone_service == "PagePlus")
+      redirect_to("/page_plus_activation")
+    else
+      redirect_to("/selectel_activation")
+    end
   end
 
 
@@ -171,7 +229,7 @@ class PagePlusActivationController < ApplicationController
     email_confirmation=params[:email_confirmation]
     phone_number=params[:phone_number]
     payment_plan=params[:payment_plan]
-
+    @phone_service=params[:phone_service]
 
     #assume no errors to begin with
     error_message_hash = {:email_missing => nil,
@@ -179,11 +237,23 @@ class PagePlusActivationController < ApplicationController
       :payment_plan_missing => nil}
 
     #price in cents
-    payment_plan_hash = {"1" => 1200,
-      "2" => 2995,
-      "3" => 3995,
-      "4" => 5500,
-      "5" => 6995}
+    if(@phone_service == "PagePlus")
+      payment_plan_hash = {"1" => 1200,
+        "2" => 2995,
+        "3" => 3995,
+        "4" => 5500,
+        "5" => 6995}
+    else
+      payment_plan_hash = {"a" => 1500,
+        "b" => 2000,
+        "c" => 3000,
+        "d" => 4000,
+        "e" => 5500,
+        "f" => 7000,
+        "g" => 7500,
+        "h" => 10000}
+
+    end
 
     @params = {}
 
@@ -206,7 +276,7 @@ class PagePlusActivationController < ApplicationController
       @params[:phone_number] = phone_number
     end
 
-    if(payment_plan.blank? or (not ["1","2","3","4","5"].include?(payment_plan)))
+    if(payment_plan.blank?)
       error_message_hash[:payment_plan_missing] = "Please choose a payment plan."
     else
       @params[:payment_plan] = payment_plan
@@ -222,7 +292,7 @@ class PagePlusActivationController < ApplicationController
       end
     end
 
-    logger.tagged("refill submit"){logger.debug(error_message_hash)}
+    logger.tagged("refill submit"){logger.debug(@phone_service == "PagePlus")}
     if(@error_found)
       flash[:danger] = @error_string.html_safe
       render 'page_plus_activation/page_plus_refill'
@@ -247,14 +317,22 @@ class PagePlusActivationController < ApplicationController
       
 
       flash[:success] = "Your information has been submitted.  Your credit card won't be charged until we can submit your information."
-      redirect_to("/page_plus_refill")
+      if(@phone_service == "PagePlus")
+        redirect_to("/page_plus_refill")
+      else
+        redirect_to("/selectel_refill")
+      end
 
     end
 
 
   rescue Stripe::CardError => e
     flash[:error] = e.message
-    redirect_to("/page_plus_refill")
+    if(@phone_service == "PagePlus")
+      redirect_to("/page_plus_refill")
+    else
+      redirect_to("/selectel_refill")
+    end
   end
 
   def page_plus_port_in_submit
@@ -276,6 +354,7 @@ class PagePlusActivationController < ApplicationController
     billing_state=params[:billing_state]
     zip_code=params[:zip_code]
     payment_plan=params[:payment_plan]
+    @phone_service=params[:phone_service]
 
 
     #assume no errors to begin with
@@ -296,12 +375,24 @@ class PagePlusActivationController < ApplicationController
       :zip_code_missing => nil,
       :payment_plan_missing => nil}
 
-    #price in cents
-    payment_plan_hash = {"1" => 1200,
-      "2" => 2995,
-      "3" => 3995,
-      "4" => 5500,
-      "5" => 6995}
+        #price in cents
+    if(@phone_service == "PagePlus")
+      payment_plan_hash = {"1" => 1200,
+        "2" => 2995,
+        "3" => 3995,
+        "4" => 5500,
+        "5" => 6995}
+    else
+      payment_plan_hash = {"a" => 1500,
+        "b" => 2000,
+        "c" => 3000,
+        "d" => 4000,
+        "e" => 5500,
+        "f" => 7000,
+        "g" => 7500,
+        "h" => 10000}
+
+    end
 
     phone_type_hash = {"1" => "3g",
       "2" => "4g"}
@@ -405,7 +496,7 @@ class PagePlusActivationController < ApplicationController
       @params[:zip_code] = zip_code
     end
 
-    if(payment_plan.blank? or (not ["1","2","3","4","5"].include?(payment_plan)))
+    if(payment_plan.blank?)
       error_message_hash[:payment_plan_missing] = "Please choose a payment plan."
     else
       @params[:payment_plan] = payment_plan
@@ -468,14 +559,23 @@ class PagePlusActivationController < ApplicationController
       
 
       flash[:success] = "Your information has been submitted.  Your credit card won't be charged until we can submit your information."
-      redirect_to("/page_plus_port_in")
+      
+      if(@phone_service == "PagePlus")
+        redirect_to("/page_plus_port_in")
+      else
+        redirect_to("/selectel_port_in")
+      end
 
     end
 
 
   rescue Stripe::CardError => e
     flash[:error] = e.message
-    redirect_to "/page_plus_port_in"
+    if(@phone_service == "PagePlus")
+      redirect_to("/page_plus_port_in")
+    else
+      redirect_to("/selectel_port_in")
+    end
   end
 
   def page_plus_number_status

@@ -5,6 +5,55 @@
  *= require bootstrap-theme.css
  */
 
+.stripe-button-el{
+	display: none; 
+ } 
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.my-btn {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.my-btn:hover, .my-btn:focus, .my-btn:active, .my-btn.active, .open > .dropdown-toggle.my-btn {
+    background: #33a6cc;
+}
+ 
+.my-btn:active, .my-btn.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+
+.my-btn.outline {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.my-btn.outline:hover, .my-btn.outline:focus, .my-btn.outline:active, .my-btn.outline.active, .open > .dropdown-toggle.my-btn {
+    color: #ffffff;
+    border-color: #005AFF;
+}
+.my-btn.outline:active, .my-btn.outline.active {
+    border-color: #ffffff;
+    color: #005AFF;
+    box-shadow: none;
+}
+
+
+
 
 .accesspoint-highlight{
 	color: #B00000;
@@ -31,6 +80,13 @@
 }
 .accesspoint-centered h5{
 	text-align: center;
+}
+
+.accesspoint-centered btn{
+	text-align: center;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .accesspoint-warning{
@@ -103,3 +159,5 @@ h3{
 h4{
 	font-weight: bold;
 }
+
+

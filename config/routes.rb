@@ -15,6 +15,8 @@ Rails.application.routes.draw do
 
   get '/photo_gallery', to: 'photo_gallery#photo_gallery'
 
+  get '/change_language', to: 'application#change_language'
+
   #----------------------PAGEPLUS--------------------------
 
   get '/page_plus_activation', to: 'page_plus_activation#page_plus_activation'
@@ -56,6 +58,7 @@ Rails.application.routes.draw do
   post '/:selectel_number_status_submit_alt', to: 'page_plus_activation#page_plus_number_status_submit', constraints: {selectel_number_status_submit_alt: /selectel_number_status_submit_[a-z_]+_[a-z_]+/}
 
 
+
   #TODO: some kind of error occurs of page_plus_refill_alt is defined above...
   get '/selectel_refill', to: 'page_plus_activation#page_plus_refill'
   get '/:selectel__refill_alt', to: 'page_plus_activation#page_plus_refill', constraints: {selectel_refill_alt: /selectel_refill_[a-z_]+_[a-z_]+/}
@@ -66,6 +69,8 @@ Rails.application.routes.draw do
   get '/:page_plus__refill_alt', to: 'page_plus_activation#page_plus_refill', constraints: {page_plus_refill_alt: /page_plus_refill_[a-z_]+_[a-z_]+/}
 
   post '/page_plus_refill_submit', to: 'page_plus_activation#page_plus_refill_submit'
+
+
 
 
 
