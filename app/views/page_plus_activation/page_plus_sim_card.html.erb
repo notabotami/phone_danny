@@ -1,0 +1,120 @@
+
+<div class="container accesspoint-form">
+  
+  <h3><%=t(".sim_card",service: @phone_service) %></h3>
+  <br>
+
+<form accept-charset="UTF-8" action="/page_plus_sim_card_submit" method="post" role="form" class="form-horizontal">
+  <input type="hidden" name="authenticity_token" value=<%= form_authenticity_token %>>
+  <input id="phone_service" type="hidden" name="phone_service" value="<%=@phone_service%>">
+
+  <div class="form-group">
+    <div class="col-md-12">
+      <p class="page-plus-only">
+        <%=t(".page_plus_sim_card_blurb_html")%>
+      </p>
+      <p class="selectel-only">
+        <%=t(".selectel_sim_card_blurb_html")%>
+        
+      </p>
+    </div>
+    <div class='col-sm-6'>
+      <label for="name"><%=t("page_plus_activation.first_name")%>*</label>
+      <br>
+      <input type="text" name='first_name' class="form-control" value="<%=if @params and @params[:first_name] then @params[:first_name] end%>">
+            <span class="accesspoint-warning">
+          This is required
+      </span>
+    </div>
+
+    <div class='col-sm-6'>
+      <label for="name"><%=t("page_plus_activation.last_name")%>*</label>
+      <br>
+
+      <input type="text" name='last_name' class="form-control" value="<%=if @params and @params[:last_name] then @params[:last_name] end%>">
+
+      <span class="accesspoint-warning">
+          This is required
+      </span>
+    </div>
+
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-12">
+      <label for="email"><%=t("page_plus_activation.email_long")%>*</label>
+      <br>
+      <span class=<%="accesspoint-warning " + if !@email_warning then " hidden" else "" end%>>
+          
+      </span>
+      <input type="email" name='email' class="form-control" id="email" value="<%=if @params and @params[:email] then @params[:email] end%>">
+      <span class="accesspoint-warning">
+          This is also required<br>
+      </span>
+
+      <label for="email-confirmation"><%=t("page_plus_activation.email_confirmation")%>*</label>
+      <br>
+      <input type="email" name='email_confirmation' class="form-control" id="email-confirmation" value="<%=if @params and @params[:email_confirmation] then @params[:email_confirmation] end%>">
+    </div>
+  </div>
+
+  <div class="form-group page-plus-only">
+    <div class="col-sm-12">
+      <label for="sim_card_size"><%=t(".size_of_sim_card")%>*</label><br>
+
+    <select class="form-control" name='sim_card_size' id="sim_card_size">
+
+      <option value="dual"><%=t(".dual_size")%></option>
+      <option value="nano"><%=t(".nano_size")%> </option>
+    </select>
+
+      <span class="hidden">
+          4G phones REQUIRE a Page Plus 4G LTE SIM card to activate<br>
+          Order one <span class='accesspoint-emphasis'>HERE</span> if you don't already have one<br>
+          If you already have one, enter it in the "Page Plus Cellular SIM CARD ID" box below
+      </span>
+    </div>
+  </div>
+
+
+  <div class="form-group">
+    <div class="col-sm-12">
+
+      <label><%=t(".shipping_address")%>*</label>
+      <input type="text" name="shipping_address" class="form-control" value="<%=if @params and @params[:shipping_address] then  @params[:shipping_address] end%>">
+    </div>
+  </div>
+
+    <div class="form-group">
+    <div class="col-sm-12">
+
+      <label><%=t(".shipping_city")%>*</label>
+      <input type="text" name="shipping_city" class="form-control" value="<%=if @params and @params[:shipping_city] then  @params[:shipping_city] end%>">
+    </div>
+  </div>
+
+    <div class="form-group">
+    <div class="col-sm-12">
+
+      <label><%=t(".shipping_state")%>*</label>
+      <input type="text" name="shipping_state" class="form-control" value="<%=if @params and @params[:shipping_state] then @params[:shipping_state] end%>">
+    </div>
+  </div>
+
+
+  <div class="form-group">
+    <div class="col-sm-12">
+
+      <label><%=t("page_plus_activation.zip_code")%>*</label>
+      <input type="text" size="5" name="zip_code" class="form-control" value="<%=if @params and @params[:zip_code] then  @params[:zip_code] end%>">
+    </div>
+  </div>
+
+  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+          data-description="<%=@phone_service%> SIM card"
+          data-locale="auto"></script>
+</form>
+<br>
+
+</div>

@@ -15,6 +15,10 @@ class PagePlusActivationController < ApplicationController
 
   end
 
+  def page_plus_sim_card
+
+  end
+
   def page_plus_port_in
       respond_to do |format|
         format.html # renders home.html.erb
@@ -147,7 +151,7 @@ class PagePlusActivationController < ApplicationController
     if(zip_code.blank?)
       error_message_hash[:zip_code_missing] = "Please fill out your zip code."
     else
-      @params[zip_code] = zip_code
+      @params[:zip_code] = zip_code
     end
 
     if(payment_plan.blank?)
@@ -246,6 +250,127 @@ class PagePlusActivationController < ApplicationController
     end
   end
 
+  def page_plus_sim_card_submit
+    first_name=params[:first_name]
+    last_name=params[:last_name]
+    email=params[:email]
+    email_confirmation=params[:email_confirmation]
+    sim_card_size= if params[:sim_card_size].nil? then "N/A" else params[:sim_card_size] end
+    shipping_address=params[:shipping_address]
+    shipping_city=params[:shipping_city]
+    shipping_state=params[:shipping_state]
+    zip_code=params[:zip_code]
+    @phone_service=params[:phone_service]
+
+
+    #assume no errors to begin with
+    error_message_hash = {:name_missing => nil, 
+      :email_missing => nil,
+      :sim_card_size_missing => nil,
+      :shipping_address_missing => nil,
+      :shipping_city_missing => nil,
+      :shipping_state_missing => nil,
+      :zip_code_missing => nil}
+
+
+    @params={}
+
+    #
+    #validate data coming in and fill out error_message_hash if necessary
+    if(first_name.blank? or last_name.blank?)
+      error_message_hash[:name_missing] = "Please fill out your first and last name."
+    else
+      @params[:first_name] = first_name
+      @params[:last_name] = last_name
+    end
+
+    if(email.blank? or email_confirmation.blank? or (email != email_confirmation))
+      error_message_hash[:email_missing] = "Please fill out and confirm your email.  Make sure you write the correct email."
+    else
+      @params[:email] = email
+      @params[:email_confirmation] = email_confirmation
+    end
+
+    if(shipping_address.blank?)
+      error_message_hash[:shipping_address_missing] = "Please fill out your account's shipping address.  Call your carrier to verify."
+    else
+      @params[:shipping_address] = shipping_address
+    end
+
+    if(shipping_city.blank?)
+      error_message_hash[:shipping_city_missing] = "Please fill out your account's shipping city.  Call your carrier to verify."
+    else
+      @params[:shipping_city] = shipping_city
+    end
+
+    if(shipping_state.blank?)
+      error_message_hash[:shipping_state_missing] = "Please fill out your account's shipping state.  Call your carrier to verify."
+    else
+      @params[:shipping_state] = shipping_state
+    end
+
+
+    if(zip_code.blank?)
+      error_message_hash[:zip_code_missing] = "Please fill out your zip code."
+    else
+      @params[:zip_code] = zip_code
+    end
+
+
+    @error_found = false
+    @error_string = ""
+
+    error_message_hash.each do |key, value|
+      if(not value.blank?)
+        @error_found = true
+        @error_string = @error_string + value + "<br>"
+      end
+    end
+
+    logger.tagged("activation submit"){logger.debug(error_message_hash)}
+    if(@error_found)
+      flash[:danger] = @error_string.html_safe
+      render 'page_plus_activation/page_plus_sim_card'
+
+    else
+
+      description="(#{@phone_service} SIM CARD ORDER) | Name: " + first_name + " "+ last_name + ", " + 
+      "Email: " + email + ", " + 
+      "SIM Card Size: " + sim_card_size+ ", " + 
+      "Shipping Address: " + shipping_address + ", " + 
+      "Shipping City: " + shipping_city + ", " + 
+      "Shipping State: " + shipping_state + ", " + 
+      "Zipcode: " + zip_code
+
+
+      customer = Stripe::Customer.create(
+        :email => params[:stripeEmail],
+        :source  => params[:stripeToken],
+        :description => description
+      )
+
+
+      
+
+      flash[:success] = "Your information has been submitted.  Your credit card won't be charged until we can submit your information.  We'll notify you as soon as we ship your SIM card out."
+      
+      if(@phone_service == "PagePlus")
+        redirect_to("/page_plus_sim_card")
+      else
+        redirect_to("/selectel_sim_card")
+      end
+
+    end
+
+
+  rescue Stripe::CardError => e
+    flash[:error] = e.message
+    if(@phone_service == "PagePlus")
+      redirect_to("/page_plus_sim_card")
+    else
+      redirect_to("/selectel_sim_card")
+    end
+  end
 
   def page_plus_refill_submit
 

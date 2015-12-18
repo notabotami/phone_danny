@@ -68,13 +68,6 @@
 
     <div class="container accesspoint-centered">
 
-      <% if @located_city%>
-      <br>
-      <h1><%= t(".welcome",city: @city_formal,state: @state_formal) %></h1>
-      <br>
-      <br>
-      <%end%>
-
       <h2>
         <%=t(".services")%>
       </h2>
@@ -82,6 +75,23 @@
       <br>
 
       <div class="row accesspoint-spaced-col">
+
+        <div class="col-md-3">
+                          
+
+            <span >
+
+              <img class="img img-responsive accesspoint-centered" src="/assets/monitor134.svg">
+            </span>
+
+          <h4>
+
+            <%=t(".tv_repair")%>
+          </h4>
+          <p>
+            <%=t(".tv_repair_blurb_html")%>
+          </p>
+        </div>
 
         <div class="col-md-3">
                           
@@ -102,7 +112,7 @@
 
         <div class="col-md-3">
 
-                      <span >
+            <span >
 
               <img class="img img-responsive accesspoint-centered" src="/assets/screen73.svg">
             </span>
@@ -118,7 +128,7 @@
 
         <div class="col-md-3">
 
-                      <span >
+            <span >
 
               <img class="img img-responsive accesspoint-centered" src="/assets/wifi7.svg">
             </span>
@@ -130,6 +140,14 @@
             <%=t(".activations_blurb_html",phone: t("phone"),page_plus_path: ApplicationHelper.set_link("/page_plus_activation",@state,@city), selectel_path: ApplicationHelper.set_link("selectel_activation",@state,@city))%>
           </p>
         </div>
+
+
+
+      </div>
+
+      <div class="row accesspoint-spaced-col">
+
+        
 
         <div class="col-md-3">
 
@@ -145,6 +163,21 @@
           <p>
             <%=t(".phone_accessories_blurb")%> 
           </p>
+        </div>
+
+        <div class="col-md-3">
+                          
+
+        </div>
+
+        <div class="col-md-3">
+
+
+        </div>
+
+        <div class="col-md-3">
+
+
         </div>
 
       </div>

@@ -8,6 +8,7 @@ es:
   
   email: accesspointwireless@hotmail.com
   phone: 712-267-0238
+  toll_free_number: 1-888-381-8899
   
   phone_computer_repair: Reparación de Teléfonos y de Computadoras
   accesspoint: El Accesspoint
@@ -28,6 +29,7 @@ es:
   
   word_for_email: E-mail
   word_for_phone: Teléfono
+  words_for_toll_free_number: Número de Teléfono Gratuito
   
   submit: Submit
   
@@ -40,6 +42,13 @@ es:
       selectel_refills: Recargar con Selectel
       welcome: "Bienvenido a %{city}, %{state}"
       services: Nuestros Servicios
+      tv_repair: Reparamos Televisores
+      tv_repair_blurb_html: >
+        Reparamos una amplia variedad de televisores, como televisores LCD y televisores de plasma.
+        Llámenos o trae su televisor a nuestra tienda. 
+        Visita este <a href="/contact">enlace</a> para obtener nuestra información 
+        de contacto y direcciones a nuestra tienda.
+     
       phone_repair: Reparamos Celulares
       phone_repair_blurb: >
         Teléfono no funciona?  
@@ -82,14 +91,18 @@ es:
     zip_code: Código Postal
     phone_number: Número de Teléfono
     
-    page_plus_plan: Seleccione su Plan de Servicio Mensual de PagePlus
+    billing_address: Dirección de Envio del Titular
+    billing_city: Ciudad del Titular
+    billing_state: Estado del Titular
+    
+    page_plus_plan: Seleccione su Plan de PagePlus
     page_plus_plan_one: $12.00 por un mes - 250 mins, 250 text, 10 mb data
     page_plus_plan_two: $29.95 por un mes - 1500 mins, UNL text, 1 GB data
     page_plus_plan_three: $39.95 por un mes - UNL mins, UNL text, & UNL data (1.5 GB alta velocidad)
     page_plus_plan_four: $55.00 por un mes - UNL mins UNL text, & UNL data (5 GB alta velocidad)
     page_plus_plan_five: $69.95 por un mes - UNL mins, UNL text, & UNL data (7GB alta velocidad)
     
-    selectel_wireless_plan: Select your Selectel Service Plan
+    selectel_wireless_plan: Seleccione su Plan de Selectel
     selectel_wireless_plan_one: $15 por un mes - 300 mins, 300 text, 15 mb data (sólo 3g)
     selectel_wireless_plan_two: $20 por un mes - 500 mins, 500 text, 2.5 mb data (sólo 4g)
     selectel_wireless_plan_three: $30 por un mes - 1300 mins, 3000 text, 500 mb data (3g/4g)
@@ -116,13 +129,14 @@ es:
         entonces el número que nos diste no era un número PagePlus válida
     page_plus_refill:
       service_refills: "Recargas de %{service}"
+    
     page_plus_port_in:
       service_port_in: "%{service} Port In Form"
       contact_number: Número de Contacto
       phone_number_to_port: Phone Number to Port
       phone_question: El teléfono es un aparato 3G o 4G LTE?
       imei_number: Número de IMEI
-      iccid_number: PagePlus 4G LTE "SIM Número ICCID"
+      iccid_number: 4G LTE SIM Número ICCID
       esn_number: Número de ESN o de MEID
       current_carrier: Compañía de Teléfono Corriente
       account_number: Número de Cuenta

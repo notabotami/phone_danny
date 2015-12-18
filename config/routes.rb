@@ -3,12 +3,10 @@ Rails.application.routes.draw do
   get ':controller/:action/:state/:page_number', constraints: {page_number: /[1-9][0-9]*/}
 
   get '/home', to: 'home#home'
-  get '/home/:state/:city', to: 'home#home'
   get '/:home_alt', to: 'home#home', constraints: {home_alt: /home_[a-z_]+_[a-z_]+/}
 
   get '/contact', to: 'contact#contact'
   get '/:contact_alt', to: 'contact#contact', constraints: {contact_alt: /contact_[a-z_]+_[a-z_]+/}
-  get '/contact/:state/:city', to: 'contact#contact'
 
   get '/locate_state', to: 'locate#locate_state'
   get '/locate_city/:state/:page_number', to: 'locate#locate_city', constraints: {page_number: /[1-9][0-9]*/}
@@ -21,13 +19,16 @@ Rails.application.routes.draw do
 
   get '/page_plus_activation', to: 'page_plus_activation#page_plus_activation'
   get '/:page_plus_activation_alt', to: 'page_plus_activation#page_plus_activation', constraints: {page_plus_activation_alt: /page_plus_activation_[a-z_]+_[a-z_]+/}
-  get '/page_plus_activation/:state/:city', to: 'page_plus_activation#page_plus_activation'
 
   post '/page_plus_activation_submit', to:'page_plus_activation#page_plus_activation_submit'
 
+  get '/page_plus_sim_card', to: 'page_plus_activation#page_plus_sim_card'
+  get '/:page_plus_sim_card_alt', to: 'page_plus_activation#page_plus_sim_card', constraints: {page_plus_sim_card_alt: /page_plus_sim_card_[a-z_]+_[a-z_]+/}
+
+  post '/page_plus_sim_card_submit', to:'page_plus_activation#page_plus_sim_card_submit'
+
   get '/page_plus_port_in', to: 'page_plus_activation#page_plus_port_in'
   get '/:page_plus_port_in_alt', to: 'page_plus_activation#page_plus_port_in', constraints: {page_plus_port_in_alt: /page_plus_port_in_[a-z_]+_[a-z_]+/}
-  get '/page_plus_port_in/:state/:city', to: 'page_plus_activation#page_plus_port_in'
 
   post '/page_plus_port_in_submit', to: 'page_plus_activation#page_plus_port_in_submit'
   
@@ -45,6 +46,11 @@ Rails.application.routes.draw do
   get '/:selectel_activation_alt', to: 'page_plus_activation#page_plus_activation', constraints: {selectel_activation_alt: /selectel_activation_[a-z]+_[a-z_]+/}
 
   post '/selectel_activation_submit', to:'page_plus_activation#page_plus_activation_submit'
+
+  get '/selectel_sim_card', to: 'page_plus_activation#page_plus_sim_card'
+  get '/:selectel_sim_card_alt', to: 'page_plus_activation#page_plus_sim_card', constraints: {selectel_sim_card_alt: /selectel_sim_card_[a-z_]+_[a-z_]+/}
+
+  post '/selectel_sim_card_submit', to:'page_plus_activation#page_plus_sim_card_submit'
 
   get '/selectel_port_in', to: 'page_plus_activation#page_plus_port_in'
   get '/:selectel_port_in_alt', to: 'page_plus_activation#page_plus_port_in', constraints: {selectel_port_in_alt: /selectel_port_in_[a-z_]+_[a-z_]+/}

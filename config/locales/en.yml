@@ -26,11 +26,13 @@ en:
   contact: Contact
   
   page_plus_activation_menu: PagePlus Activation
+  page_plus_sim_card_menu: Buy a PagePlus SIM Card
   page_plus_port_in_menu: PagePlus Port-In
   page_plus_number_status_menu: PagePlus Phone Status
   page_plus_refill_menu: PagePlus Refill
   
   selectel_activation_menu: Selectel Wireless Activation
+  selectel_sim_card_menu: Buy a Selectel SIM Card
   selectel_port_in_menu: Selectel Port-In
   selectel_refill_menu: Selectel Refill
   
@@ -43,9 +45,11 @@ en:
   
   email: accesspointwireless@hotmail.com
   phone: 712-267-0238
+  toll_free_number: 1-888-381-8899
   
   word_for_email: Email
   word_for_phone: Phone
+  words_for_toll_free_number: Toll Free Number
   
   submit: Submit
   
@@ -58,6 +62,12 @@ en:
       selectel_refills: Selectel Refills
       welcome: "Welcome to %{city}, %{state}"
       services: Our Services
+      tv_repair: TV Repair
+      tv_repair_blurb_html: >
+        We fix a wide variety of televisions such as lcd and plasma TVs.
+        Call us or bring your TV to our store.  
+        Go <a href="/contact">here</a> for our contact information and directions to our store.
+        
       phone_repair: Phone Repair
       phone_repair_blurb: >
         Phone not working?  
@@ -96,7 +106,7 @@ en:
     zip_code: Zip Code
     phone_number: Phone Number
     
-    page_plus_plan: Choose your Page Plus Monthly Service Plan
+    page_plus_plan: Choose your Page Plus Service Plan
     page_plus_plan_one: $12.00 for one month - 250 mins, 250 text, 10 mb data
     page_plus_plan_two: $29.95 for one month - 1500 mins, UNL text, 1 GB data
     page_plus_plan_three: $39.95 for one month - UNL mins, UNL text, & UNL data (1.5 GB high speed)
@@ -118,7 +128,7 @@ en:
       activation_question: What kind of phone are you activating?
       esn_number: Enter your phone's ESN or MEID
       imei_number: "Enter your 4G Phone's IMEI Number (15-digits)"
-      iccid_number: "Page Plus Cellular SIM Card ID (ICCID Number)"
+      iccid_number: "SIM Card ID (ICCID Number)"
     
     page_plus_number_status:
       service_number_status:  "%{service} - Check Phone Number Status"
@@ -129,13 +139,32 @@ en:
         entered was not a valid PagePlus number
     page_plus_refill:
       service_refills: "%{service} Refills"
+    page_plus_sim_card:
+      page_plus_sim_card_blurb_html: >
+        PagePlus SIM cards are required for your device in order to receive 4G LTE service.
+        You can buy a SIM Card here for $8 which includes shipping and handling.
+        We will ship your SIM Card to the address you provide below.
+        Remember to buy a plan after receiving your SIM Card!  
+        Go <a href="https://www.pagepluscellular.com/support/#faq">here</a> for more information about PagePlus SIM cards.
+      selectel_sim_card_blurb_html: >
+        Selectel SIM cards are required for your device in order to receive 4G LTE service.
+        You can buy a SIM Card here for $8 which includes shipping and handling.
+        We will ship your SIM Card to the address you provide below.
+        Remember to buy a plan after receiving your SIM Card!
+      sim_card: "Buy a %{service} SIM Card"
+      size_of_sim_card: What size SIM card do you need?
+      dual_size: Dual (Standard/Micro)
+      nano_size: Nano
+      shipping_address: Street Address
+      shipping_city: City
+      shipping_state: State
     page_plus_port_in:
       service_port_in: "%{service} Port In Form"
       contact_number: Contact Number
       phone_number_to_port: Phone Number to Port
       phone_question: Is your phone a 3G or 4G LTE device?
       imei_number: IMEI Number
-      iccid_number: Page Plus 4G LTE "SIM ICCID Number
+      iccid_number: 4G LTE SIM ICCID Number
       esn_number: ESN or MEID Number
       current_carrier: Current Carrier
       account_number: Account Number
