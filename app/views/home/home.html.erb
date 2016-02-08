@@ -99,28 +99,32 @@
       <div class="row accesspoint-spaced-col">
 
         <div class="col-md-3">
+          
                           
 
             <span >
-
-              <img class="img img-responsive accesspoint-centered" src="/assets/monitor134.svg">
+              <a href=<%=ApplicationHelper.set_link("/tv_repair",@state,@city)%>>
+                <img class="img img-responsive accesspoint-centered" src="/assets/monitor134.svg">
+              </a>
             </span>
 
-          <h4>
+            <h4>
 
-            <%=t(".tv_repair")%>
-          </h4>
-          <p>
-            <%=t(".tv_repair_blurb_html")%>
-          </p>
+              <%=t(".tv_repair")%>
+            </h4>
+            <p>
+              <%=t(".tv_repair_blurb_html")%>
+            </p>
+          
         </div>
 
         <div class="col-md-3">
                           
 
             <span >
-
-              <img class="img img-responsive accesspoint-centered" src="/assets/smartphone45.svg">
+              <a href=<%=ApplicationHelper.set_link("/phone_repair",@state,@city)%>>
+                <img class="img img-responsive accesspoint-centered" src="/assets/smartphone45.svg">
+              </a>
             </span>
 
           <h4>
@@ -135,8 +139,9 @@
         <div class="col-md-3">
 
             <span >
-
-              <img class="img img-responsive accesspoint-centered" src="/assets/screen73.svg">
+              <a href=<%=ApplicationHelper.set_link("/computer_repair",@state,@city)%>>
+                <img class="img img-responsive accesspoint-centered" src="/assets/screen73.svg">
+              </a>
             </span>
 
 
@@ -151,8 +156,9 @@
         <div class="col-md-3">
 
             <span >
-
-              <img class="img img-responsive accesspoint-centered" src="/assets/wifi7.svg">
+              <a href=<%=ApplicationHelper.set_link("/phone_activations",@state,@city)%>>
+                <img class="img img-responsive accesspoint-centered" src="/assets/wifi7.svg">
+              </a>
             </span>
 
           <h4>
@@ -173,9 +179,10 @@
 
         <div class="col-md-3">
 
-                      <span >
-
-              <img class="img img-responsive accesspoint-centered" src="/assets/connection26.svg">
+            <span >
+              <a href=<%=ApplicationHelper.set_link("/phone_accessories",@state,@city)%>>
+                <img class="img img-responsive accesspoint-centered" src="/assets/connection26.svg">
+              </a>
             </span>
 
 

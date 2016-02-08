@@ -107,21 +107,21 @@ en:
     phone_number: Phone Number
     
     page_plus_plan: Choose your Page Plus Service Plan
-    page_plus_plan_one: $12.00 for one month - 250 mins, 250 text, 10 mb data
-    page_plus_plan_two: $29.95 for one month - 1500 mins, UNL text, 1 GB data
-    page_plus_plan_three: $39.95 for one month - UNL mins, UNL text, & UNL data (1.5 GB high speed)
-    page_plus_plan_four: $55.00 for one month - UNL mins UNL text, & UNL data (5 GB high speed)
-    page_plus_plan_five: $69.95 for one month - UNL mins, UNL text, & UNL data (7GB high speed)
+    page_plus_plan_one: $14.00 for one month - 250 mins, 250 text, 10 mb data
+    page_plus_plan_two: $31.95 for one month - 1500 mins, UNL text, 1 GB data
+    page_plus_plan_three: $41.95 for one month - UNL mins, UNL text, & UNL data (1.5 GB high speed)
+    page_plus_plan_four: $57.00 for one month - UNL mins UNL text, & UNL data (5 GB high speed)
+    page_plus_plan_five: $71.95 for one month - UNL mins, UNL text, & UNL data (7GB high speed)
     
     selectel_wireless_plan: Choose your Selectel Service Plan
-    selectel_wireless_plan_one: $15 per month - 300 mins, 300 text, 15 mb data (3g only)
-    selectel_wireless_plan_two: $20 per month - 500 mins, 500 text, 2.5 mb data (4g only)
-    selectel_wireless_plan_three: $30 per month - 1300 mins, 3000 text, 500 mb data (3g/4g)
-    selectel_wireless_plan_four: $40 per month - UNL mins, UNL text, 1 gb data (3g/4g)
-    selectel_wireless_plan_five: $55 per month - UNL mins, UNL text, 3 gb data (3g/4g)
-    selectel_wireless_plan_six: $70 per month - UNL mins, UNL text, 5 gb data (3g/4g)
-    selectel_wireless_plan_seven: $75 yearly - 2000 mins, 2000 text (3g only)
-    selectel_wireless_plan_eight: $100 yearly - 2000 mins, 2000 text (4g only)
+    selectel_wireless_plan_one: $17 per month - 300 mins, 300 text, 15 mb data (3g only)
+    selectel_wireless_plan_two: $22 per month - 500 mins, 500 text, 2.5 mb data (4g only)
+    selectel_wireless_plan_three: $32 per month - 1300 mins, 3000 text, 500 mb data (3g/4g)
+    selectel_wireless_plan_four: $42 per month - UNL mins, UNL text, 1 gb data (3g/4g)
+    selectel_wireless_plan_five: $57 per month - UNL mins, UNL text, 3 gb data (3g/4g)
+    selectel_wireless_plan_six: $72 per month - UNL mins, UNL text, 5 gb data (3g/4g)
+    selectel_wireless_plan_seven: $77 yearly - 2000 mins, 2000 text (3g only)
+    selectel_wireless_plan_eight: $102 yearly - 2000 mins, 2000 text (4g only)
     
     page_plus_activation:
       service_activation: "%{service} Activation"
@@ -142,13 +142,13 @@ en:
     page_plus_sim_card:
       page_plus_sim_card_blurb_html: >
         PagePlus SIM cards are required for your device in order to receive 4G LTE service.
-        You can buy a SIM Card here for $8 which includes shipping and handling.
+        You can buy a SIM Card here for $10 which includes shipping and handling.
         We will ship your SIM Card to the address you provide below.
         Remember to buy a plan after receiving your SIM Card!  
         Go <a href="https://www.pagepluscellular.com/support/#faq">here</a> for more information about PagePlus SIM cards.
       selectel_sim_card_blurb_html: >
         Selectel SIM cards are required for your device in order to receive 4G LTE service.
-        You can buy a SIM Card here for $8 which includes shipping and handling.
+        You can buy a SIM Card here for $10 which includes shipping and handling.
         We will ship your SIM Card to the address you provide below.
         Remember to buy a plan after receiving your SIM Card!
       sim_card: "Buy a %{service} SIM Card"

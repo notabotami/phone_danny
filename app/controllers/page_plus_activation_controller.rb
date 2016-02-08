@@ -83,6 +83,8 @@ class PagePlusActivationController < ApplicationController
 
     end
 
+    amount = payment_plan_hash[payment_plan]
+
     phone_type_hash = {"1" => "3g",
       "2" => "4g"}
 
@@ -205,6 +207,8 @@ class PagePlusActivationController < ApplicationController
 
       end
 
+
+
       payment_plan = payment_plan_hash[payment_plan]
 
       description="(#{@phone_service} ACTIVATION) | Name: " + first_name + " "+ last_name + ", " + 
@@ -221,14 +225,17 @@ class PagePlusActivationController < ApplicationController
 
       logger.tagged("activation submit"){logger.debug(description)}
 
-      customer = Stripe::Customer.create(
-        :email => params[:stripeEmail],
-        :source  => params[:stripeToken],
+
+      charge = Stripe::Charge.create(
+        :amount => amount + 200, # amount in cents, again
+        :currency => "usd",
+        :source => params[:stripeToken],
         :description => description
       )
 
 
-      
+      #PaymentNotifier.purchase_email(description).deliver!
+
 
       flash[:success] = "Your information has been submitted.  Your credit card won't be charged until we can submit your information."
     	
@@ -343,9 +350,10 @@ class PagePlusActivationController < ApplicationController
       "Zipcode: " + zip_code
 
 
-      customer = Stripe::Customer.create(
-        :email => params[:stripeEmail],
-        :source  => params[:stripeToken],
+      charge = Stripe::Charge.create(
+        :amount => 800 + 200, # amount in cents, again
+        :currency => "usd",
+        :source => params[:stripeToken],
         :description => description
       )
 
@@ -403,6 +411,8 @@ class PagePlusActivationController < ApplicationController
         "h" => 10000}
 
     end
+
+    amount = payment_plan_hash[payment_plan]
 
     @params = {}
 
@@ -475,9 +485,10 @@ class PagePlusActivationController < ApplicationController
 
       logger.tagged("refill submit"){logger.debug(description)}
 
-      customer = Stripe::Customer.create(
-        :email => params[:stripeEmail],
-        :source  => params[:stripeToken],
+      charge = Stripe::Charge.create(
+        :amount => amount + 200, # amount in cents, again
+        :currency => "usd",
+        :source => params[:stripeToken],
         :description => description
       )
 
@@ -561,6 +572,8 @@ class PagePlusActivationController < ApplicationController
         "h" => 10000}
 
     end
+
+    amount = payment_plan_hash[payment_plan]
 
     phone_type_hash = {"1" => "3g",
       "2" => "4g"}
@@ -737,9 +750,11 @@ class PagePlusActivationController < ApplicationController
 
       logger.tagged("port in submit"){logger.debug(description)}
 
-      customer = Stripe::Customer.create(
-        :email => params[:stripeEmail],
-        :source  => params[:stripeToken],
+
+      charge = Stripe::Charge.create(
+        :amount => amount + 200, # amount in cents, again
+        :currency => "usd",
+        :source => params[:stripeToken],
         :description => description
       )
 

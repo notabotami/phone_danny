@@ -16,11 +16,13 @@ es:
   contact: Contáctenos
   
   page_plus_activation_menu: Activación con PagePlus
+  page_plus_sim_card_menu: Compra una Tarjeta SIM de PagePlus
   page_plus_port_in_menu: PagePlus Port-In
   page_plus_number_status_menu: Estado de su Teléfono
   page_plus_refill_menu: Recargas de PagePlus
   
   selectel_activation_menu: Activación con Selectel Wireless
+  selectel_sim_card_menu: Compra una Tarjeta SIM de Selectel
   selectel_port_in_menu: Selectel Port-In
   selectel_refill_menu: Recargas de Selectel
   
@@ -96,21 +98,21 @@ es:
     billing_state: Estado del Titular
     
     page_plus_plan: Seleccione su Plan de PagePlus
-    page_plus_plan_one: $12.00 por un mes - 250 mins, 250 text, 10 mb data
-    page_plus_plan_two: $29.95 por un mes - 1500 mins, UNL text, 1 GB data
-    page_plus_plan_three: $39.95 por un mes - UNL mins, UNL text, & UNL data (1.5 GB alta velocidad)
-    page_plus_plan_four: $55.00 por un mes - UNL mins UNL text, & UNL data (5 GB alta velocidad)
-    page_plus_plan_five: $69.95 por un mes - UNL mins, UNL text, & UNL data (7GB alta velocidad)
+    page_plus_plan_one: $14.00 por un mes - 250 mins, 250 text, 10 mb data
+    page_plus_plan_two: $31.95 por un mes - 1500 mins, UNL text, 1 GB data
+    page_plus_plan_three: $41.95 por un mes - UNL mins, UNL text, & UNL data (1.5 GB alta velocidad)
+    page_plus_plan_four: $57.00 por un mes - UNL mins UNL text, & UNL data (5 GB alta velocidad)
+    page_plus_plan_five: $71.95 por un mes - UNL mins, UNL text, & UNL data (7GB alta velocidad)
     
     selectel_wireless_plan: Seleccione su Plan de Selectel
-    selectel_wireless_plan_one: $15 por un mes - 300 mins, 300 text, 15 mb data (sólo 3g)
-    selectel_wireless_plan_two: $20 por un mes - 500 mins, 500 text, 2.5 mb data (sólo 4g)
-    selectel_wireless_plan_three: $30 por un mes - 1300 mins, 3000 text, 500 mb data (3g/4g)
-    selectel_wireless_plan_four: $40 por un mes - UNL mins, UNL text, 1 gb data (3g/4g)
-    selectel_wireless_plan_five: $55 por un mes - UNL mins, UNL text, 3 gb data (3g/4g)
-    selectel_wireless_plan_six: $70 por un mes - UNL mins, UNL text, 5 gb data (3g/4g)
-    selectel_wireless_plan_seven: $75 por un año - 2000 mins, 2000 text (sólo 3g)
-    selectel_wireless_plan_eight: $100 por un año - 2000 mins, 2000 text (sólo 4g)
+    selectel_wireless_plan_one: $17 por un mes - 300 mins, 300 text, 15 mb data (sólo 3g)
+    selectel_wireless_plan_two: $22 por un mes - 500 mins, 500 text, 2.5 mb data (sólo 4g)
+    selectel_wireless_plan_three: $32 por un mes - 1300 mins, 3000 text, 500 mb data (3g/4g)
+    selectel_wireless_plan_four: $42 por un mes - UNL mins, UNL text, 1 gb data (3g/4g)
+    selectel_wireless_plan_five: $57 por un mes - UNL mins, UNL text, 3 gb data (3g/4g)
+    selectel_wireless_plan_six: $72 por un mes - UNL mins, UNL text, 5 gb data (3g/4g)
+    selectel_wireless_plan_seven: $77 por un año - 2000 mins, 2000 text (sólo 3g)
+    selectel_wireless_plan_eight: $102 por un año - 2000 mins, 2000 text (sólo 4g)
     
     
     page_plus_activation:
@@ -129,9 +131,29 @@ es:
         entonces el número que nos diste no era un número PagePlus válida
     page_plus_refill:
       service_refills: "Recargas de %{service}"
-    
+      
+    page_plus_sim_card:
+      page_plus_sim_card_blurb_html: >
+        Se requieren tarjetas SIM PagePlus para el servicio 4G LTE.
+        Aqui se puede comprar una tarjeta SIM por $ 10, que incluye gastos de envío.
+        Vamos a enviar su tarjeta SIM a la dirección que nos proporcione.
+        Compra un plan de PagePlus después de recibir su tarjeta SIM! 
+        Visita este <a href="https://www.pagepluscellular.com/support/#faq">enlace</a> para más información sobre tarjetas SIM de PagePlus.
+      selectel_sim_card_blurb_html: >
+        Se requieren tarjetas SIM Selectel para el servicio 4G LTE.
+        Aqui se puede comprar una tarjeta SIM por $ 10, que incluye gastos de envío.
+        Vamos a enviar su tarjeta SIM a la dirección que nos proporcione.
+        Compra un plan de PagePlus después de recibir su tarjeta SIM!
+      sim_card: "Compra una tarjeta SIM de %{service}"
+      size_of_sim_card: De qué tamaño necesita la tarjeta SIM?
+      dual_size: Dual (Standard/Micro)
+      nano_size: Nano
+      shipping_address: Dirección
+      shipping_city: Ciudad
+      shipping_state: Estado
+      
     page_plus_port_in:
-      service_port_in: "%{service} Port In Form"
+      service_port_in: "Formulario de Port-In de %{service}"
       contact_number: Número de Contacto
       phone_number_to_port: Phone Number to Port
       phone_question: El teléfono es un aparato 3G o 4G LTE?

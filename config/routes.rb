@@ -15,6 +15,21 @@ Rails.application.routes.draw do
 
   get '/change_language', to: 'application#change_language'
 
+  get '/tv_repair' , to: 'home#home'
+  get '/:tv_repair_alt', to: 'home#home', constraints: {tv_repair_alt: /tv_repair_[a-z_]+_[a-z_]+/}
+
+  get '/phone_repair' , to: 'home#home'
+  get '/:phone_repair_alt', to: 'home#home', constraints: {phone_repair_alt: /phone_repair_[a-z_]+_[a-z_]+/}
+
+  get '/computer_repair' , to: 'home#home'
+  get '/:computer_repair_alt', to: 'home#home', constraints: {computer_repair_alt: /computer_repair_[a-z_]+_[a-z_]+/}
+
+  get '/phone_accessories', to: 'home#home'
+  get '/:phone_accessories_alt', to: 'home#home', constraints: {phone_accessories_alt: /phone_accessories_[a-z_]+_[a-z_]+/}
+
+  get '/phone_activations', to: 'home#home'
+  get '/:phone_activations_alt', to: 'home#home', constraints: {phone_activations_alt: /phone_activations_[a-z_]+_[a-z_]+/}
+
   #----------------------PAGEPLUS--------------------------
 
   get '/page_plus_activation', to: 'page_plus_activation#page_plus_activation'
