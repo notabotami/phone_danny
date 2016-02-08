@@ -1,5 +1,5 @@
 class PaymentNotifier < ActionMailer::Base
-  default from: :from => "noreply@accesspoint.com"
+  default :from => "noreply@accesspoint.com"
 
   def purchase_email(description)
 
